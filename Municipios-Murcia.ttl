@@ -1,0 +1,1196 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix :      <http://www.monumentos.es/lugares#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lugares: <http://www.monumentos.es/lugares/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+lugares:Carthagonova  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+<http://es.dbpedia.org/resource/Totana>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Totana .
+
+lugares:Qart-Hadast  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Cartagena  a     lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual ;
+        rdfs:comment     "Cartagena es una ciudad y municipio español, situado en la costa del mar Mediterráneo, en la comunidad autónoma de la Región de Murcia. Es capital de la comarca del Campo de Cartagena y de la Provincia Marítima de Cartagena y sede de la Asamblea Regional de Murcia, órgano legislativo de la comunidad autónoma.4​ Es, así mismo, sede de la Consejería de Turismo de la Región de Murcia.5​ Cuenta con una población de 218 050 habitantes (INE 2023),6​ repartida en un término municipal de 558,1 km². Se encuentra al sur de la llanura Campo de Cartagena, comarca natural que forma su área metropolitana y que cuenta con una población de 418 686 habitantes.6​ Así, ocupa el puesto 23.º en la lista de municipios más poblados de España y el puesto 26.º en la lista de áreas metropolitanas de España.\n\nCartagena fue fundada como Qart Hadasht por el cartaginés Asdrúbal el Bello en el año 227 a. C., sobre un anterior asentamiento ibérico o tartésico,7​ tradicionalmente identificado como Mastia.8​ La ciudad conoció su apogeo durante época romana con el nombre de Carthago Nova, época en la que fue capital de provincia tras la división administrativa de Diocleciano. Tras la desaparición del Imperio romano, con el nombre de Carthago Spartaria, formó parte de los dominios bizantinos en la península ibérica, de la que fue uno de sus más importantes ciudades y acaso su capital, resultando destruida tras su toma por los visigodos. Tras ello, Cartagena entró en un periodo de decadencia durante la época musulmana que no fue revertido hasta bien entrada la Edad Moderna. A partir del siglo XVI, se potenció el papel militar de Cartagena debido a la importancia estratégica de su puerto, y en el siglo XVIII se convirtió en capital del Departamento Marítimo del Mediterráneo. En el siglo XIX, vivió las vicisitudes del sistema liberal español, con episodios como la insurrección de 1844 o la rebelión cantonal de 1873.9​10​11​\n\nDesde finales del siglo XIX y durante el siglo XX, la economía de Cartagena se basó en la explotación del cinc, plata y plomo de la sierra minera, cuya prosperidad se manifestó con la construcción de edificios modernistas, y también en la explotación del sector químico (sulfuro, abonos fosfatados y explosivos). En la actualidad, agotados los filones mineros, Cartagena vive principalmente de la construcción y reparación naval, de la industria energética y petroquímica y la exportación de aceite de oliva, frutas, cítricos, hortalizas, esparto, vino y productos metálicos. Así mismo, es una de las principales bases navales del país, junto con Rota y Ferrol, y un emergente destino turístico gracias a su patrimonio histórico-artístico, que abarca vestigios de época cartaginesa, romana, bizantina; edificaciones de carácter militar de época moderna y contemporánea; así como edificios neoclásicos y modernistas. En el ámbito cultural es conocida por sus fiestas mayores de Carthagineses y Romanos y las procesiones de Semana Santa, estando declaradas ambas de Interés Turístico Internacional.\n\nToponimia\n\nEl primer topónimo de que se tiene constancia en el área de la actual Cartagena es Mastia, que tradicionalmente se identifica con la ciudad en un periodo íbero o tartésico.8​ Los fenicios la fundaron con el nombre de Qart Hadašt, «nueva ciudad», el mismo que le habían dado a Cartago. En latín se la denominó Carthago Nova («Nueva Cartago», un tautopónimo), y del acusativo Carthaginem salió la forma tardía que derivaría en el árabe قرطجانة (Qarṭaǧānatu), forma inmediatamente previa a la actual, Cartagena.\n\nhttps://es.wikipedia.org/wiki/Cartagena_(Espa%C3%B1a)"@es ;
+        rdfs:label       "Cartagena"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Panoramica_de_Cartagena_desde_el_Castillo_de_San_Juli%C3%A1n_%2827126393499%29_%28cropped%29.jpg/800px-Panoramica_de_Cartagena_desde_el_Castillo_de_San_Juli%C3%A1n_%2827126393499%29_%28cropped%29.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:CarthagoSpartaria , lugares:Carthagonova , lugares:Qart-Hadast ;
+        geo:lat          "37.6"^^xsd:float ;
+        geo:long         "-0.981944"^^xsd:float .
+
+lugares:Provincia_de_Córdoba
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Córdoba_(España)" ;
+        rdfs:label                      "Provincia de Córdoba"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+lugares:Comunidad_Autónoma_de_las_Islas_Canarias
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de las Islas Canarias"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Las_Palmas , lugares:Provincia_de_Santa_Cruz_de_Tenerife .
+
+lugares:Comunidad_Autónoma_de_Madrid
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Madrid"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Madrid .
+
+lugares:Provincia_de_Soria
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Soria" ;
+        rdfs:label                      "Provincia de Soria"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+geo:location  a       owl:ObjectProperty ;
+        rdfs:comment  "The relation between something and the point,\n or other geometrical thing in space, where it is.  For example, the realtionship between\n a radio tower and a Point with a given lat and long.\n Or a relationship between a park and its outline as a closed arc of points, or a road and\n its location as a arc (a sequence of points).\n Clearly in practice there will be limit to the accuracy of any such statement, but one would expect\n an accuracy appropriate for the size of the object and uses such as mapping .\n " ;
+        rdfs:label    "location" ;
+        rdfs:range    geo:SpatialThing .
+
+<http://es.dbpedia.org/resource/Ulea>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Ulea .
+
+lugares:Provincia_de_Las_Palmas
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Las_Palmas" ;
+        rdfs:label                      "Provincia de Las Palmas"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_las_Islas_Canarias .
+
+lugares:Provincia_de_Lugo
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Lugo" ;
+        rdfs:label                      "Provincia de Lugo"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Galicia .
+
+lugares:Abanilla  a      owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Abanilla es una localidad y municipio español perteneciente a la Región de Murcia, situado en la comarca Oriental, en el límite con la Comunidad Valenciana (linda con la provincia de Alicante). Tiene una superficie de 235,62 km² y cuenta con una población de 6216 habitantes (INE 2023).\n\nToponimia\n\nSu nombre deriva del árabe al-Bayada, que significa \"la ciudad blanca\".2​ De este nombre vienen las formas valenciana Favanella (pronunciado /fa.vaˈne.ʎa/) y castellana Abanilla (después la forma intermedia Havanilla, siglo XIII).3​4​5​6​7​\n\nGeografía\n\nEl municipio ocupa una superficie de 236,6 km². Está situado a 222 metros de altitud sobre el nivel del mar, siendo el punto más alto la Sierra de Quibas (972 m); que es uno de los peñones que forma esta sierra ubicada al N del municipio, sobre los terrenos de las pedanías de La Zarza, El Collado de los Gabrieles, La Cañada de la Leña y Balonga. En esta sierra, se ubica el Yacimiento Arqueológico de Quibas.\n\nhttps://es.wikipedia.org/wiki/Abanilla"@es ;
+        rdfs:label       "Abanilla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/f/fe/Abanilla.jpg" ;
+        geo:lat          "38.207222"^^xsd:float ;
+        geo:long         "-1.041389"^^xsd:float .
+
+lugares:Provincia_de_Ávila
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Ávila" ;
+        rdfs:label                      "Provincia de Ávila"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+<http://es.dbpedia.org/resource/Abarán>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Abarán .
+
+lugares:Alcantarilla  a  owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Alcantarilla es un municipio y ciudad española de la Región de Murcia. Su término municipal tiene una extensión de 16,24 km² y su población es de 43 049 habitantes (INE 2023).2​ con una densidad de población de 2545 hab/km², que es la más alta de la región. Alcantarilla forma parte del área metropolitana de Murcia.\n\nEn las proximidades de su término municipal se asienta la Base Aérea de Alcantarilla, base del EZAPAC (Escuadrón de Zapadores Paracaidistas del Ejército del Aire) y de la Escuela Militar de Paracaidismo Méndez Parada.\n\nToponimia\n\nEl nombre del municipio proviene del árabe Al-Qantara, que significa «puente». Posiblemente se trata del Qantara-Askaba al que alude Al-Idrisi en el siglo XII, situándolo entre Murcia y Librilla, en el camino de Almería, y que también mencionan Al-Udri y Al-Himyari.\n\nLa transcripción que propone Hernández Carrasco añade a la palabra Al-Qantar(a) el sufijo romance illa (el puentecillo),3​ teniendo en cuenta que en castellano medieval la palabra puente se usó mayoritariamente en femenino.\n\nhttps://es.wikipedia.org/wiki/Alcantarilla_(Espa%C3%B1a)"@es ;
+        rdfs:label       "Alcantarilla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Iglesia_Nuestra_Se%C3%B1ora_de_la_Asunci%C3%B3n_en_el_barrio_de_Campoamor_de_Alcantarilla_%28Murcia%29.jpg/800px-Iglesia_Nuestra_Se%C3%B1ora_de_la_Asunci%C3%B3n_en_el_barrio_de_Campoamor_de_Alcantarilla_%28Murcia%29.jpg" ;
+        geo:lat          "37.97222"^^xsd:float ;
+        geo:long         "-1.209444"^^xsd:float .
+
+lugares:Provincia_de_Huesca
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Huesca" ;
+        rdfs:label                      "Provincia de Huesca"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Aragón .
+
+lugares:Campos_del_Río
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Campos del Río es un municipio español situado en el interior de la Región de Murcia, en la comarca del Río Mula. Cuenta con 2143 habitantes (INE 2023).1​\n\nGeografía\n\nEl municipio cuenta con una urbanización llamada “Campos de Murcia”, habitada mayoritariamente por población extranjera. También existe una pedanía llamada \"Los Rodeos\".\nHistoria\n\nUna de las primeras referencias históricas sobre Campos del Río se encuentra en un privilegio rodado firmado en 1257 por Alfonso X de Castilla, en el que cedía al concejo de Mula la aldea de Campos, \"la que es entre Albudeyt et Molina et Murçia\", con todos sus derechos, heredamientos, montes y fuentes.2​\n\nEl pueblo de Campos se independizaría definitivamente del municipio de Mula hacia 1845, formando parte de la provincia de Murcia que se había creado en la reforma administrativa de 1833. En la década de 1910, el municipio pasó a denominarse Campos del Río.\n\nEn 1933 se abrió al tráfico la línea Murcia-Caravaca, que permitió la conexión de la comarca con el resto de la red ferroviaria española. El municipio contaba con una estación propia. La explotación del trazado fue, sin embargo, poco rentable desde sus inicios y la línea terminaría siendo clausurada en 1971.\n\nDemografía\n\nCampos del Río cuenta con 2.045 habitantes (INE 2018).\n\nhttps://es.wikipedia.org/wiki/Campos_del_R%C3%ADo"@es ;
+        rdfs:label       "Campos del Río"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ayuntamiento_de_Campos_del_Rio.jpg/800px-Ayuntamiento_de_Campos_del_Rio.jpg" ;
+        geo:lat          "38.040833"^^xsd:float ;
+        geo:long         "-1.351667"^^xsd:float .
+
+<http://www.monumentos.es/lugares/Alcázares,_Los>
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Los Alcázares es un municipio español de la Región de Murcia, de 16 935 habitantes (INE 2021), situado en la ribera del Mar Menor. Para diversos organismos aparece incluida en la comarca del Campo de Cartagena,1​2​3​4​ aunque también se suele considerar parte de la Comarca del Mar Menor,5​ a pesar de que no hay una comarcalización oficialmente establecida. Hasta 1983, el municipio se hallaba dividido en dos mitades que pertenecían a Torre-Pacheco y San Javier. A partir de ese año se segrega y unifica.\n\nGeografía\n\nSe encuentra situado en la llanura denominada Campo de Cartagena, ocupando 9 km en la costa del Mar Menor, con cinco kilómetros flanqueados por un paseo marítimo. En la parte sur se extiende hasta la rambla de El Albujón.\n\nLas áreas territoriales por las que se extiende son tres:\n\n-Núcleo de población conectado a Los Narejos; Zona militar, donde se sitúa la base militar de Los Alcázares y Área industrial, donde destaca el polígono industrial de Los Alcázares.\n\nhttps://es.wikipedia.org/wiki/Los_Alc%C3%A1zares"@es ;
+        rdfs:label       "Los Alcázares"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://commons.wikimedia.org/wiki/File:Los_Alcazares_and_the_Mar_Menor_at_dusk_(4679604635).jpg#/media/Archivo:Los_Alcazares_and_the_Mar_Menor_at_dusk_(4679604635).jpg" ;
+        geo:lat          "37.74361"^^xsd:float ;
+        geo:long         "-0.849722"^^xsd:float .
+
+<http://www.opengis.net/ont/geosparql#SpatialObject>
+        a       owl:Class .
+
+lugares:Murçia  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Beniel  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Beniel es un municipio español de la Región de Murcia (España) situado en la comarca de la Huerta de Murcia. Cuenta con una población total de 11.578 habitantes (INE 2022)1​ y una extensión de 10,06 km².\n\nBeniel se encuentra a 15 km de Murcia y a 7 km de Orihuela, localizada en plena vega del Segura (río que bordea la población por el norte), a una altura de 28 metros sobre el nivel del mar. La extensión del municipio es de 10 km². Su clima es el típico del sur del mediterráneo, semiárido y con pocas precipitaciones (296 mm) . Sus pedanías son La Basca, El Mojón y El Raiguero - La Villa.\n\nhttps://es.wikipedia.org/wiki/Beniel"@es ;
+        rdfs:label       "Beniel"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ermite_El_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs.JPG/800px-Ermite_El_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs.JPG" ;
+        geo:lat          "38.04639"^^xsd:float ;
+        geo:long         "-1.001389"^^xsd:float .
+
+lugares:Comunidad_Autónoma_del_Principado_de_Asturias
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma del Principado de Asturias"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Asturias .
+
+geo:SpatialThing  a   owl:Class ;
+        rdfs:comment  "Anything with spatial extent, i.e. size, shape, or position.\n e.g. people, places, bowling balls, as well as abstract areas like cubes.\n" ;
+        rdfs:label    "SpatialThing" .
+
+lugares:Torre_Pacheco
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Torre-Pacheco es un municipio español de la Región de Murcia, enclavado en la llanura del Campo de Cartagena, a 8 km de las playas del Mar Menor. Con 38 140 habitantes (INE 2022), es el sexto municipio de la Región en número de habitantes.\n\nEl municipio de Torre-Pacheco se sitúa en la llanura del Campo de Cartagena. Fue en 1980 cuando el Consejo Regional lo ubicó administrativamente en la Comarca del Mar Menor, una subdivisión del Campo de Cartagena que no se hizo oficial. El centro urbano principal se encuentra a 8 kilómetros de las playas del Mar Menor, a 14 kilómetros de Cartagena y a 41 kilómetros de Murcia.\n\nEl término municipal tiene una extensión de 189,4 km², que corresponde al 1,67 % de la superficie total de la Región. Esto representa un tamaño municipal mediano si lo comparamos con la superficie de otros municipios de la Región de Murcia.8​ El municipio está atravesado por la autovía de Murcia (A-30), por la carretera N-301a entre los pK 425 y 428 y por las carreteras provinciales RM-F14, que permite la comunicación con Lobosillo, RM-313, que rodea la localidad por el norte, RM-F22, que conecta con Balsicas, y RM-F30, que se dirige al Mar Menor.\n\nEl único relieve montañoso que existe en Torre-Pacheco es el Cabezo Gordo (308 metros), ya que el municipio se encuentra en plena llanura del campo de Cartagena.\n\nEl tipo de suelo que predomina en el municipio es el xerosol cálcico.9​10​\n\nTorre-Pacheco limita al este con los municipios de San Javier y Los Alcázares; al sur con las diputaciones cartageneras de Albujón, Pozo Estrecho, La Palma y Lentiscar; al norte con las pedanías murcianas de Los Martínez del Puerto, Gea y Truyols y Jerónimo y Avileses; y al oeste con la pedanía fuentealameña de Balsapintada y la murciana de Lobosillo.\n\nhttps://es.wikipedia.org/wiki/Torre-Pacheco"@es ;
+        rdfs:label       "Torre-Pacheco"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/0/04/Iglesia_de_San_Cayetano.jpg" ;
+        geo:lat          "37.743134"^^xsd:float ;
+        geo:long         "-0.953902"^^xsd:float .
+
+lugares:Esta_contenida_en_entidades_mayores
+        a                   owl:ObjectProperty , owl:SymmetricProperty ;
+        rdfs:domain         lugares:Provincia , lugares:Municipio ;
+        rdfs:label          "Esta contenida en entidades mayores"@es ;
+        rdfs:range          lugares:Comunidad_Autónoma , lugares:Provincia ;
+        rdfs:subPropertyOf  owl:topObjectProperty ;
+        owl:inverseOf       lugares:Posee_entidades_menores .
+
+<http://es.dbpedia.org/resource/Pliego>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Pliego .
+
+lugares:Provincia_de_Sevilla
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Sevilla" ;
+        rdfs:label                      "Provincia de Sevilla"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+lugares:Provincia_de_Gipuzkoa
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Guipúzcoa" ;
+        rdfs:label                      "Provincia de Guipúzcoa"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_del_País_Vasco .
+
+lugares:Lorca  a         <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual , lugares:Municipio ;
+        rdfs:comment     "Lorca es una ciudad y municipio español perteneciente a la Región de Murcia, situada en la comarca del Alto Guadalentín, en el sureste de la península ibérica. Es la tercera población en importancia de la Región de Murcia tras Murcia y Cartagena, con 98 447 habitantes (INE 2023); de ellos, 63 154 habitantes correspondían al casco urbano en 20229​ y el resto a sus numerosas pedanías, distribuidas a lo largo y ancho de los 1675 km² de término municipal,10​ el segundo más extenso de España tras el de Cáceres, y que cuenta con una densidad poblacional de 57,99 habitantes por km².\n\nLorca es conocida por su castillo, su arquitectura barroca y sus procesiones de Semana Santa, declaradas fiesta de interés turístico internacional.\n\nGracias a su denso patrimonio heráldico es también llamada «la ciudad de los cien escudos», nombre que le otorgó el antiguo alcalde José Antonio Gallego,4​5​ mientras que de su nombre original (Eliocroca) toma el título de ciudad del sol.1​2​3​ Su casco antiguo y el recinto del castillo,11​ fueron declarados conjunto histórico-artístico el 5 de marzo de 1964,12​ siendo el primero de la Región de Murcia con esta distinción.\n\nToponimia\n\nSon numerosas las leyendas que narran el origen de Lorca. La mayoría tienen un carácter mitológico. Según Méndez Silva (1649), un príncipe troyano llamado Elio, junto a un personaje griego llamado Crota, fueron los fundadores de Eliocroca, que así se llamó Lorca en la época romana. El padre Morote, por otra parte, otorga la fundación de Lorca al príncipe troyano Elio-Urzues, navegante por el \"Mare Nostrum\". Espinalt escribió en 1778 que «en el año 4018 de la creación del mundo», un príncipe troyano llamado Elio fundó una ciudad a la que llamó Ilorci. También se pensó en una combinación de los vocablos Helios (sol) y Kraton (gobierno) para formar la denominación de Eliocroca (ciudad gobernada por el Sol).1​2​3​\n\nSin duda la denominación actual de Lorca procede de época árabe, cuando la medina era conocida como Lurqa, término que ya aparece reflejado en el Pacto de Teodomiro, firmado en el año 713. El significado de esta denominación sería \"la batalla\", probablemente porque fuera en esta ciudad donde se produjera el enfrentamiento entre las tropas cristianas de Teodomiro y las fuerzas árabes que invadieron la península ibérica en el siglo VIII.\n\nhttps://es.wikipedia.org/wiki/Lorca"@es ;
+        rdfs:label       "Lorca"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lorca-Castillo.jpg/800px-Lorca-Castillo.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Ilorci , lugares:Ilocrici ;
+        geo:lat          "37.683334"^^xsd:float ;
+        geo:long         "-1.7"^^xsd:float .
+
+lugares:Alguazas  a      owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Alguazas es un municipio español de la Región de Murcia, perteneciente a la comarca de la Vega Media del Segura.\n\nTiene una extensión de 23,74 km² y una población de 10 218 habitantes (INE 2023).1​ Está situado a una altitud de 90 m s. n. m., con una altura máxima de 214 m s. n. m., en el Cabezo de la Zobrina. Limita, al este con Molina de Segura, al sur con Las Torres de Cotillas, al oeste con Campos del Río y Villanueva del Río Segura y al norte con Ceutí y Lorquí.\n\nTopónimo\n\nEl nombre del municipio proviene de la palabra árabe “Aluazta” o “Alhuasta” palabras que significan “la que está en medio” dada su privilegiada situación geográfica entre los ríos Mula y Segura. Su nombre actual no aparece hasta el siglo XIII, cuando Alfonso X el Sabio cede la villa a su esposa Violante.\n\nhttps://es.wikipedia.org/wiki/Alguazas"@es ;
+        rdfs:label       "Alguazas"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/e/e2/IglesiaParroquialdeSanOnofre.JPG" ;
+        geo:lat          "38.051388"^^xsd:float ;
+        geo:long         "-1.241389"^^xsd:float .
+
+lugares:Imagen1  a  owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+<http://es.dbpedia.org/resource/Cehegín>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Cehegín .
+
+<http://es.dbpedia.org/resource/Ricote>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:RIcote .
+
+lugares:San_Javier  a    <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual , lugares:Municipio ;
+        rdfs:comment     "San Javier es un municipio español de la Comunidad autónoma de la Región de Murcia, situado en la zona norte de la comarca del Mar Menor. Pertenecen a él las localidades costeras de Santiago de la Ribera y la parte central y norte de La Manga del Mar Menor. Es sede del partido judicial del mismo nombre.\n\nTiene una extensión de 74,2 km² y una población de 34 468 habitantes (INE 2022) en su término municipal,1​ que aumenta considerablemente en época estival ya que posee 23 km de costa en el Mar Menor y 16 km en el mar Mediterráneo. En él se sitúa la Academia General del Aire y las instalaciones del antiguo aeropuerto de San Javier.\n\nGeografía\n\nEstá situado en la zona norte del Mar Menor (latitud: 37° 48' N, longitud: 00° 51' O) en la Comarca del Mar Menor,2​ aunque otros organismos lo incluyen en la comarca del Campo de Cartagena.3​4​5​ Sus municipios colindantes son: Pilar de la Horadada, Murcia, San Pedro del Pinatar, Torre Pacheco, Cartagena (sólo en la zona de La Manga) y Los Alcázares. Es capital del Partido Judicial de San Javier.\n\nDispone de ocho pedanías además del principal núcleo de población en el centro ciudad. Algunas son interiores: Roda, El Mirador, Pozo Aledo, Tarquinales (Lo Llerena y Los Saez), La Grajuela, y La Calavera. Otras dos son costeras: Santiago de la Ribera y La Manga del Mar Menor en su zona norte y central.\n\nPertenecen además al municipio de San Javier, dos de las cinco islas volcánicas del interior del Mar Menor: La isla Mayor o del Barón, que es la más grande de la albufera con 93,8 hectáreas y 104 metros de altitud; y la isla Perdiguera, la más visitada, con un tamaño de 25,8 hectáreas.\n\nTambién pertenece al municipio de San Javier la isla Grosa, con un pequeño islote a su lado, también volcánico, El Farallón, ambas situadas en el Mediterráneo frente a las playas de La Manga.\n\nhttps://es.wikipedia.org/wiki/San_Javier_(Espa%C3%B1a)"@es ;
+        rdfs:label       "San Javier"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/6/69/Santiago_de_la_ribera.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Plumbaria ;
+        geo:lat          "37.80366"^^xsd:float ;
+        geo:long         "-0.834285"^^xsd:float .
+
+<http://www.monumentos.es/lugares>
+        a       owl:Ontology .
+
+lugares:Comunidad_Autónoma_de_Aragón
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Aragón"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Teruel , lugares:Provincia_de_Huesca , lugares:Provincia_de_Zaragoza .
+
+lugares:Librilla  a      owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Librilla es un municipio español perteneciente a la Región de Murcia. Tiene una población de 5619 habitantes (INE 2022)1​ y una superficie de 56 km².\n\nGeografía\n\nLa rambla de Orón que divide el núcleo urbano de Librilla\n\nIntegrado en la comarca de Bajo Guadalentín, se sitúa a 29 kilómetros de la capital murciana.\n\nEl relieve del término municipal está caracterizado por el valle del Guadalentín, cuyo río hace de límite por el sur con el término de Alhama de Murcia, donde se encuentra la presa de El Romeral, de laminación de avenidas. También destaca la sierra del Cura al norte, que alcanza los 443 metros de altitud (Loma Larga).\n\nLa rambla de Algeciras, cuyo cauce hace de límite con el término de Alhama por el oeste, represa sus aguas en el embalse del mismo nombre antes de abandonar la sierra del Cura, mientras que la rambla de Orón cruza con un profundo tajo el núcleo urbano de Librilla.\n\nLa altitud oscila entre los 443 metros (Loma Larga) y los 95 metros a orillas del Guadalentín.\n\nhttps://es.wikipedia.org/wiki/Librilla"@es ;
+        rdfs:label       "Librilla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Librilla.JPG/800px-Librilla.JPG" ;
+        geo:lat          "37.883057"^^xsd:float ;
+        geo:long         "-1.35"^^xsd:float .
+
+geo:alt  rdfs:comment  "The WGS84 altitude of a SpatialThing (decimal meters\nabove the local reference ellipsoid)." ;
+        rdfs:label    "altitude" .
+
+lugares:Municipio  a      owl:Class ;
+        rdfs:label        "Municipio"@es ;
+        rdfs:subClassOf   geo:SpatialThing ;
+        owl:disjointWith  lugares:Provincia .
+
+geo:    rdfs:comment    "\nRecent changes to this namespace:\n$Log: wgs84_pos.rdf,v $\nRevision 1.22  2009/04/20 15:00:30  timbl\nRemove the time bits which have been deal with elsewhere eg in iCal.\n\nRevision 1.21  2009/04/20 12:52:47  timbl\ntry again\n\nRevision 1.20  2009/04/20 12:42:11  timbl\nAdd Event (edited ages ago and never checked in), and location (following discussion http://chatlogs.planetrdf.com/swig/2009-04-20#T12-36-09)\n\nRevision 1.19  2009/04/20 12:36:31  timbl\nAdd Event (edited ages ago and never checked in), and location (following discussion http://chatlogs.planetrdf.com/swig/2009-04-20#T12-36-09)\n\nRevision 1.18  2006/02/01 22:01:04  danbri\nClarified that lat and long are decimal degrees, and that alt is decimal metres about local reference ellipsoid\n\nRevision 1.17  2004/02/06 17:38:12  danbri\nFixed a bad commit screwup\n\nRevision 1.15  2003/04/19 11:24:08  danbri\nFixed the typo even more.\n\nRevision 1.14  2003/04/19 11:16:56  danbri\nfixed a typo\n\nRevision 1.13  2003/02/19 22:27:27  connolly\nrelaxed domain constraints on lat/long/alt from Point to SpatialThing\n\nRevision 1.12  2003/01/12 01:41:41  danbri\nTrying local copy of XSLT doc.\n\nRevision 1.11  2003/01/12 01:20:18  danbri\nadded a link to morten's xslt rdfs viewer.\n\nRevision 1.10  2003/01/11 18:56:49  danbri\nRemoved datatype range from lat and long properties, since they would\nhave required each occurance of the property to mention the datatype.\n\nRevision 1.9  2003/01/11 11:41:31  danbri\nAnother typo; repaired rdfs:Property to rdf:Property x4\n\nRevision 1.8  2003/01/11 11:05:02  danbri\nAdded an rdfs:range for each lat/long/alt property,\nhttp://www.w3.org/2001/XMLSchema#float\n\nRevision 1.7  2003/01/10 20:25:16  danbri\nLonger rdfs:comment for Point, trying to be Earth-centric and neutral about\ncoordinate system(s) at the same time. Feedback welcomed.\n\nRevision 1.6  2003/01/10 20:18:30  danbri\nAdded CVS log comments into the RDF/XML as an rdfs:comment property of the\nvocabulary. Note that this is not common practice (but seems both harmless\nand potentially useful).\n\n\nrevision 1.5\ndate: 2003/01/10 20:14:31;  author: danbri;  state: Exp;  lines: +16 -5\nUpdated schema:\nAdded a dc:date, added url for more info. Changed the rdfs:label of the\nnamespace from gp to geo. Added a class Point, set as the rdfs:domain of\neach property. Added XML comment on the lat_long property suggesting that\nwe might not need it (based on #rdfig commentary from implementors).\n\nrevision 1.4\ndate: 2003/01/10 20:01:07;  author: danbri;  state: Exp;  lines: +6 -5\nFixed typo; several rdfs:about attributes are now rdf:about. Thanks to MortenF in\n#rdfig for catching this error.\n\nrevision 1.3\ndate: 2003/01/10 11:59:03;  author: danbri;  state: Exp;  lines: +4 -3\nfixed buglet in vocab, added more wgs links\n\nrevision 1.2\ndate: 2003/01/10 11:01:11;  author: danbri;  state: Exp;  lines: +4 -4\nRemoved alt from the as-a-flat-string property, and switched from\nspace separated to comma separated.\n\nrevision 1.1\ndate: 2003/01/10 10:53:23;  author: danbri;  state: Exp;\nbasic geo vocab\n\n" ;
+        rdfs:label      "geo" ;
+        dc:date         "$Date: 2009/04/20 15:00:30 $" ;
+        dc:description  "A vocabulary for representing latitude, longitude and\n altitude information in the WGS84 geodetic reference datum.\n Version $Id: wgs84_pos.rdf,v 1.22 2009/04/20 15:00:30 timbl Exp $. See http://www.w3.org/2003/01/geo/ for more details." ;
+        dc:title        "WGS84 Geo Positioning: an RDF vocabulary" .
+
+lugares:Comunidad_Autónoma_de_Galicia
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Galicia"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Lugo , lugares:Provincia_de_Ourense , lugares:Provincia_de_La_Coruña , lugares:Provincia_de_Pontevedra .
+
+lugares:La_Unión  a      owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "La Unión es un municipio y localidad española de la Región de Murcia. Perteneciente a la comarca del Campo de Cartagena, cuenta con una población de 20 897 habitantes (INE 2023).1​\n\nGeografía\n\nEl término municipal, además de la propia ciudad de La Unión, cuenta con dos pedanías: Roche y Portmán en la costa.2​ Pertenece al partido judicial de Cartagena.\n\nEl municipio de La Unión constituye un enclave dentro del término municipal de Cartagena, lindando al sur con el mar Mediterráneo.\n\nhttps://es.wikipedia.org/wiki/La_Uni%C3%B3n_(Espa%C3%B1a)"@es ;
+        rdfs:label       "La Unión"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/La_Union_mercado.jpg/799px-La_Union_mercado.jpg" ;
+        geo:lat          "37.619076"^^xsd:float ;
+        geo:long         "-0.875512"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Lorca>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Lorca .
+
+lugares:Comunidad_Autónoma
+        a                 owl:Class ;
+        rdfs:label        "Comunidad Autonoma"@es ;
+        rdfs:subClassOf   geo:SpatialThing ;
+        owl:disjointWith  lugares:Provincia .
+
+lugares:Provincia_de_Pontevedra
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Pontevedra" ;
+        rdfs:label                      "Provincia de Pontevedra"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Galicia .
+
+owl:topObjectProperty
+        a       owl:ObjectProperty , owl:ReflexiveProperty , owl:TransitiveProperty , owl:SymmetricProperty .
+
+lugares:Se_refiere_a_lugar_actual
+        a                   owl:ObjectProperty ;
+        rdfs:domain         lugares:Lugar_Histórico ;
+        rdfs:label          "Se refiere a Municipio actual"@es , "Se refiere a lugar actual"@es ;
+        rdfs:range          geo:SpatialThing ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+lugares:Provincia_de_Madrid
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Madrid" ;
+        rdfs:label                      "Provincia de Madrid"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Madrid .
+
+<http://es.dbpedia.org/resource/San_Pedro_del_Pinatar>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:San_Pedro_del_Pinatar .
+
+lugares:Fortuna  a       owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Fortuna es un municipio español de la comarca Oriental de la Región de Murcia. Cuenta con una población de 11 094 habitantes (INE 2023).\n\nEl municipio es especialmente conocido desde la antigüedad por sus aguas mineromedicionales, base del Balneario de Fortuna-Leana, por su gran patrimonio arqueológico y por sus Fiestas de Sodales Íbero-romanos, unas de las fiestas históricas más importantes de la Región de Murcia, que están declaradas de interés turístico Regional y se celebran en pleno mes de agosto, coincidiendo con las Fiestas Patronales en Honor a San Roque.\n\nAdemás, es conocido por su patrimonio natural, contando en su término con el Parque Regional \"Sierra de la Pila\" y con el Espacio Protegido del \"Ajauque y Rambla Salada\". También, es de vital importancia para la economía del municipio las industrias extractivas y mineras, con canteras de árido y mármol en la parte norte de su término municipal.\n\nDentro de su término municipal cuenta con 11 pedanías: Garapacha, La Gineta, La Matanza, Caprés, Las Casicas, Peña de Zafra de Arriba, Peña de Zafra de Abajo (que se encuentra rodeada de grandes canteras a cielo abierto de las que se saca el mármol),2​ Los Baños, Fuenteblanca, Rambla Salada y Hoya Hermosa.\n\nhttps://es.wikipedia.org/wiki/Fortuna_(Murcia)"@es ;
+        rdfs:label       "Fortuna"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/4/41/Iglesia_de_Fortuna.jpg" ;
+        geo:lat          "38.178917"^^xsd:float ;
+        geo:long         "-1.123263"^^xsd:float .
+
+lugares:Los_Alcázares
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Los Alcázares es un municipio español de la Región de Murcia, de 19 506 habitantes (INE 2024),1​ situado en la ribera del Mar Menor. Para diversos organismos aparece incluida en la comarca del Campo de Cartagena,2​3​4​5​aunque también se suele considerar parte de la Comarca del Mar Menor,6​ a pesar de que no hay una comarcalización oficialmente establecida. Hasta 1983, el municipio se hallaba dividido en dos mitades que pertenecían a Torre-Pacheco y San Javier. A partir de ese año se segrega y unifica.\n\nGeografía\nIntegrado en la comarca de Campo de Cartagena, se sitúa a 52 kilómetros de la capital autonómica. El término municipal está atravesado por la autopista del Mediterráneo (AP-7), por la carretera nacional N-332, entre los pK 22 y 28, y por carreteras locales que permiten la comunicación con Torre-Pacheco y San Javier.\n\nSe encuentra situado en la llanura del Campo de Cartagena, ocupando 9 kilómetros en la costa del Mar Menor. En la parte sur se extiende hasta la rambla de El Albujón. La altitud oscila entre los 20 metros de altitud y el nivel del mar. El núcleo urbano se alza a 3 metros sobre el nivel del mar."@es ;
+        rdfs:label       "Los Alcázares"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/f/ff/Playa_del_Espejo%2C_en_Los_Alc%C3%A1zares_%28Murcia%2C_Espa%C3%B1a%29.jpg" ;
+        geo:lat          "37.743611111111"^^xsd:float ;
+        geo:long         "-0.84972222222222"^^xsd:float .
+
+lugares:Lugar_Histórico
+        a                owl:Class ;
+        rdfs:label       "Lugar Histórico"@es ;
+        rdfs:subClassOf  geo:SpatialThing .
+
+<http://es.dbpedia.org/resource/Alhama_de_Murcia>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Alhama_de_Murcia .
+
+lugares:Cehegín  a       owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> , lugares:Municipio ;
+        rdfs:comment     "Cehegín es un municipio español de la Región de Murcia, situado en la Comarca del Noroeste que cuenta con 14 983 habitantes (INE 2019).1​\n\nSituada en el corazón de la comarca murciana del Noroeste, el municipio de Cehegín, con sus fértiles y extensas tierras, ha sido el lugar elegido por diferentes culturas desde los tiempos más remotos, desde la prehistoria con pinturas rupestres pertenecientes al arte rupestre del arco mediterráneo de la península ibérica, pasando por íberos, romanos, visigodos, árabes y cristianos.\n\nEn 1982 el Casco Antiguo de Cehegín fue declarado Conjunto Histórico-Artístico por el Ministerio de Cultura de España.\n\nTiene una extensión de 292,7 km². Su altitud media es de 570 metros sobre el nivel del mar y dista de la ciudad de Murcia en 66 km. Sus accidentes orográficos más destacables son las sierras de Lavia, Quípar, Burete y de La Puerta. Su término municipal es surcado por los ríos Argos y Quípar, ambos afluentes del río Segura.\n\nEn la cuenca del río Argos, antes de entrar en el término municipal de Calasparra, se encuentra el embalse del Argos.\n\nhttps://es.wikipedia.org/wiki/Ceheg%C3%ADn"@es ;
+        rdfs:label       "Cehegín"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cehegin_Murcia_iglesia_de_santa_Maria_Magdalena.jpg/800px-Cehegin_Murcia_iglesia_de_santa_Maria_Magdalena.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Biqasro , lugares:Bigastrum ;
+        geo:lat          "38.092506"^^xsd:float ;
+        geo:long         "-1.798753"^^xsd:float .
+
+lugares:Biqasro  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Provincia_de_Huelva
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Huelva" ;
+        rdfs:label                      "Provincia de Huelva"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+<http://es.dbpedia.org/resource/Mazarrón>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Mazarrón .
+
+lugares:Ulea  a          owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Ulea es un municipio español perteneciente a la comarca del Valle de Ricote, en la Región de Murcia.\n\nSu extensión es de 43 km², y cuenta con una población de 874 habitantes (INE 2023).2​ El municipio posee dos núcleos de población: Ulea y Cuesta Blanca. Está situado a 25 kilómetros de Murcia.\n\nToponimia\n\nEl nombre de Ulea, cuyo nombre se traduce por Ulliya = \"la Alta\", no se documenta hasta la segunda mitad del siglo XIV. Con toda probabilidad tras la reconquista sería una pequeña alquería integrada en el término de Ricote, hasta que un posterior desarrollo poblacional permitió su segregación e independencia, pasando la fortaleza a denominarse las Peñas de Olea (Ulea).\n\nHistoria\n\nPrehistoria\n\nLa presencia del río Segura junto a la localidad de Ulea ha tenido siempre gran influencia en su historia.\n\nSe piensa que los primeros pobladores que poblaron en estas tierras fue en tiempos neolíticos, si bien no hay yacimientos arqueológicos en el término municipal que lo demuestren.\n\nÍberos\n\nEn la ladera del monte del Castillo hay unos restos que certifican la existencia de un poblado íbero en los siglos IV-III a. C. En esta zona, se han hallado algunas cerámicas con decoración geométrica. El poblado vivía en esta época de la agricultura, la ganadería y la pesca.\n\nRomanos\n\n\nEn el cercano paraje del Salto de la Novia se encontraron entre 1970 y 1972 los restos de un poblado romano de los siglos IV y IV Su ubicación se debería a la importancia estratégica de este punto para la defensa del Valle de Ricote. Una muralla cerraba la zona protegiendo aquellos puntos en los que la defensa natural no era suficiente. Otro vestigio romano es una calzada datada en los siglos I-III y que estuvo en funcionamiento hasta los siglos XVII y XVIII. Conectaría Cartagena con Chinchilla pasando por el Puerto uleano de La Losilla.\n\nMusulmanes\n\nTras su llegada en el 711, los musulmanes se situaron en el monte del Castillo, zona fácil de defender y vigilar. Hoy día se conservan algunos fragmentos de la muralla que protegía a la población y los restos de un aljibe. Los musulmanes implantaron sus sistemas de riego a base de acequias y norias, lo que supuso un gran avance de la agricultura en las vegas del Segura. De hecho, aún se conservan algunas de estas norias en la huerta de Ulea. También se encuentran los restos de una pequeña mezquita en la ladera del Castillo.\n\nEn el Valle de Ricote tuvo su origen la Tercera taifa de Murcia, al producirse la sublevación de Ibn Hud contra los almohades en el 1228.\n\nReconquista\n\nLa alquería de Ulea entró en la órbita de la Corona de Castilla junto al resto de la Taifa de Murcia a partir de 1243, tras la firma del Tratado de Alcaraz.\n\nUlea fue entregada a la Orden de Santiago en 1285 junto al resto del Valle de Ricote (a excepción de Archena) tras la promesa de cesión que Sancho IV de Castilla hizo a la Orden si esta le ayudaba en su causa sucesoria. Hasta esa fecha, el valle había estado concedido en señorío a Enrique Pérez de Arana.3\n\nLos santiaguistas controlaron de igual forma otras muchas localidades del fronterizo Reino de Murcia, siendo los que trajeron a Ulea la reliquia del Lignum Crucis, venerada durante las Fiestas de mayo.\nEdad Moderna\n\nA principios del siglo XVI, los mudéjares presentes en Ulea y que no deseaban abandonar la península ibérica se convirtieron al cristianismo, transformándose las mezquitas en iglesias, fenómeno que se produjo en todo el Valle de Ricote.\n\nUlea obtuvo en el siglo XVI el privilegio de Villa con concejo, pero años más tarde fue agregada a Caravaca. En esta época la población de Ulea era muy reducida y los cultivos se encontraban en un estado de gran abandono.\n\nUlea recuperó con Felipe II el privilegio de Villa ante la necesidad económica de la Corona. El número de habitantes ascendió a principios del siglo XVII, pero fue entonces cuando se expulsó a los moriscos que quedaban en la zona, generándose en consecuencia importantes problemas económicos ante la despoblación generada.\n\nEn el siglo XVIII la población ascendió de nuevo. Comenzó entonces un periodo benigno para Ulea, por lo que los santiaguistas, que se habían trasladado a Villanueva, regresaron a la localidad.\n\nEdad Contemporánea\n\nEn el siglo XIX, Ulea experimentó un gran auge alcanzando una población de más de 1000 habitantes, número que se ha mantenido más o menos constante hasta nuestros días.\n\nhttps://es.wikipedia.org/wiki/Ulea"@es ;
+        rdfs:label       "Ulea"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ulea.jpg/800px-Ulea.jpg" ;
+        geo:lat          "38.140835"^^xsd:float ;
+        geo:long         "-1.329722"^^xsd:float .
+
+lugares:CIudad_Autónoma_de_Melilla
+        a           lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label  "Ciudad Autónoma de Melilla"@es .
+
+<http://es.dbpedia.org/resource/Calasparra>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Calasparra .
+
+<http://es.dbpedia.org/resource/Moratalla>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Moratalla .
+
+<http://es.dbpedia.org/resource/Las_Torres_de_Cotillas>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Las_Torres_de_Cotillas .
+
+lugares:Provincia_de_Ourense
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Orense" ;
+        rdfs:label                      "Provincia de Orense"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Galicia .
+
+<http://es.dbpedia.org/resource/Aledo>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Aledo .
+
+lugares:Murcia  a        <http://www.opengis.net/ont/geosparql#SpatialObject> , lugares:Municipio , owl:NamedIndividual ;
+        rdfs:comment     "Murcia es una ciudad y municipio español, capital de la Región de Murcia. Es el centro de la comarca de la Huerta de Murcia y de su área metropolitana. Está situada en el sureste de la península ibérica, a orillas del río Segura, en la denominada depresión prelitoral murciana, a 46 kilómetros del mar Mediterráneo. Con 469 177 habitantes (INE 2023)7​ es el séptimo municipio más poblado de España.\n\nEl área urbana de la ciudad (o zona metropolitana), aunque no establecida oficialmente, comprendería a unos diez municipios de la Región de Murcia, contando con una población de 672 773 habitantes en 2020, repartidos en una superficie total de 1230,92 km², con una densidad de población de 547 hab/km².8​ De este modo, el área urbana de Murcia ocuparía el 10.º puesto en la lista de áreas metropolitanas de España.\n\nEs un importante centro de servicios en el que el sector terciario ha sucedido a su antigua condición de exportador agrícola por antonomasia, gracias a su célebre y fértil huerta, por la cual era conocido como la «Huerta de Europa». Entre sus industrias más destacadas se encuentran la alimentaria, la textil, la química, la de destilación y la fabricación de muebles y materiales de construcción, estando muchas de ellas ubicadas en el Polígono Industrial Oeste, considerado uno de los más grandes de la península9​ (compartido con el municipio de Alcantarilla).\n\nEs también un importante centro de gran tradición universitaria desde que fuera fundada la primera universidad en 1272. Actualmente es sede de dos universidades: la pública Universidad de Murcia y la privada Universidad Católica San Antonio, con alrededor de 50 000 estudiantes.\n\nDe orígenes inciertos, hay constancia de que fue fundada en el año 825 por orden de Abderramán II, probablemente, sobre un asentamiento anterior de origen romano.​ Durante la Edad Media, Murcia llegó a ser capital de la cora de Tudmir, posteriormente fue cabeza de distintos reinos de taifas de creciente importancia en los siglos XI, XII y XIII13​ y entre 1243-1266 se incorporó a la Corona de Castilla como capital del Reino de Murcia, siendo además ciudad con voto en cortes y sede episcopal desde 1291.\n\nDe su patrimonio histórico-artístico destacan su célebre Catedral, de fachada barroca e interior principalmente gótico, el afamado Casino, de suntuosos interiores; el denso patrimonio escultórico de Francisco Salzillo, y un gran conjunto de edificios barrocos. En el ámbito cultural es conocida por su rico folclore, especialmente vistoso durante las Fiestas de Primavera y las procesiones de Semana Santa, declaradas de Interés Turístico Internacional.15​ El Consejo de Hombres Buenos de la Huerta de Murcia, ejemplo de tribunal consuetudinario de regantes del Mediterráneo español, está declarado Patrimonio cultural inmaterial de la Humanidad por la Unesco.\n\nhttps://es.wikipedia.org/wiki/Murcia"@es ;
+        rdfs:label       "Murcia"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Murcia.JPG/800px-Murcia.JPG" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:TaifadeMurcia , lugares:Murçia , lugares:TaifadeMursiya , lugares:Mursiya ;
+        geo:lat          "37.98611"^^xsd:float ;
+        geo:long         "-1.130278"^^xsd:float .
+
+lugares:Ceutí  a         owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Ceutí es un municipio español perteneciente a la Región de Murcia, situado en la comarca natural de la Vega Media del Segura. En 2021 contaba con una población de 12 199 habitantes.1​ Sus pedanías son Los Torraos y Vistalegre. Limita con los municipios de Lorquí, Alguazas, Archena y Villanueva del Río Segura.\n\nToponimia\n\nEl origen etimológico de Ceutí proviene de la época musulmana. En la última etapa de la Taifa de Murcia, aparecen las primeras referencias documentales sobre la población: Benahabiai de Çepti. El vocablo Çepti significa «el de Ceuta» y se debería a la procedencia de los primeros pobladores de la pequeña alquería que se localizaba donde actualmente se encuentra el casco antiguo de la localidad.\n\nA lo largo de los siglos, el nombre ha ido evolucionando y se han documentado distintas variantes (Çebtin, Septi, Zepti, Zeuty...) hasta llegar al topónimo actual.\n\nGeografía\n\nEl municipio de Ceutí se localiza en la zona interior de la Región de Murcia, dentro de la comarca de la Vega Media del Segura. Está rodeado por los términos municipales de Archena al norte, Lorquí al este, Alguazas al sur y Villanueva del Río Segura al oeste.\n\nhttps://es.wikipedia.org/wiki/Ceut%C3%AD"@es ;
+        rdfs:label       "Ceutí"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ayto_ceuti.jpg/800px-Ayto_ceuti.jpg" ;
+        geo:lat          "38.078888"^^xsd:float ;
+        geo:long         "-1.272222"^^xsd:float .
+
+lugares:Comunidad_Autónoma_de_Castilla_y_León
+        a                            owl:NamedIndividual , lugares:Comunidad_Autónoma , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Castilla y León"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_León , lugares:Provincia_de_Burgos , lugares:Provincia_de_Palencia , lugares:Provincia_de_Soria , lugares:Provincia_de_Valladolid , lugares:Provincia_de_Segovia , lugares:Provincia_de_Ávila , lugares:Provincia_de_Zamora , lugares:Provincia_de_Salamanca .
+
+lugares:Provincia_de_León
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_León" ;
+        rdfs:label                      "Provincia de León"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+<http://es.dbpedia.org/resource/Santomera>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Santomera .
+
+lugares:Comunidad_Autónoma_de_Castilla_La_Mancha
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Castilla La Mancha"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Toledo , lugares:Provincia_de_Ciudad_Real , lugares:Provincia_de_Albacete , lugares:Provincia_de_Cuenca , lugares:Provincia_de_Guadalajara .
+
+lugares:Alhama_de_Murcia
+        a                <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual , lugares:Municipio ;
+        rdfs:comment     "Alhama de Murcia es un municipio español de la Región de Murcia situado en la comarca natural del Bajo Guadalentín, a los pies de Sierra Espuña. Tiene una población de 23 280 habitantes (INE 2023)1​ y una densidad de población de 74,72 hab./km².\nGeografía\n\nEl término municipal de Alhama de Murcia ocupa una superficie de 311,55 km², casi en el centro de la Región de Murcia. Está integrado en la comarca de Bajo Guadalentín, y se sitúa a 36 kilómetros de la capital murciana.\n\nSe trata de un municipio con intensos cambios en el relieve. En la parte central se dispone el Valle del Guadalentín, que recorre el río de igual nombre, mientras que tanto al norte como al sur se disponen sistemas montañosos.\nTérmino municipal de Alhama de Murcia respecto a la Región de Murcia\n\nSierra Espuña ocupa el noroeste del territorio, donde se alcanzan los 1444 metros (pico Morrón), incluyendo parte del Parque Regional de Sierra Espuña. Desde allí, varios barrancos vierten hacia las dos subcuencas de la zona: la del río Pliego y la del río Guadalentín. Al noreste se sitúa la Sierra de La Muela, alcanzando los 633 metros2​ y en cuyas estribaciones se localiza el núcleo urbano de Alhama. Al sur se encuentra la Sierra de Carrascoy, cuya máxima altitud alcanza los 1064 metros (pico Carrascoy), y también define dos subcuencas, la noreste, más escarpada, que drena hacia el río Guadalentín, y la sureste, que vierte hacia el Campo de Cartagena.\n\nLa altitud oscila por tanto entre los 1444 metros (pico Morrón) en Sierra Espuña y los 145 metros a orillas del Guadalentín. La ciudad se alza a 195 metros sobre el nivel del mar.\n\nhttps://es.wikipedia.org/wiki/Alhama_de_Murcia"@es ;
+        rdfs:label       "Alhama de Murcia"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Iglesia_de_San_L%C3%A1zaro_%28Alhama%29.jpg/800px-Iglesia_de_San_L%C3%A1zaro_%28Alhama%29.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Laqwa ;
+        geo:lat          "37.85139"^^xsd:float ;
+        geo:long         "-1.426389"^^xsd:float .
+
+<https://www.wikidata.org/entity/Q913277>
+        a       owl:NamedIndividual .
+
+lugares:Villanueva_del_Río_Segura
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Villanueva del Río Segura es un municipio español de la Región de Murcia. Se encuentra en el corazón del Valle de Ricote, siendo, por su localización estratégica, la puerta de entrada del mismo desde el sur. Cuenta con una población de 3 268 habitantes (INE 2021).\n\nGeografía\n\nVillanueva se encuentra situada en una elevación sobre la llanura aluvial del río Segura, que a esta altura forma una estrecha vega encajonada entre montañas, el denominado valle de Ricote. Recorrido por acequias y demás canales de irrigación que aprovechan desde tiempos ancestrales las especiales características del terreno y el clima de la zona para el aprovechamiento agrícola.\n\nEl cauce del Segura sirve de límite municipal con Ulea, de cuyo núlceo dista poco más de 1 kilómetro.\n\nHistoria\n\nLas culturas íbera y romana dejaron sus huellas en las cercanías de la villa, pues los vergeles que creaba el río Segura a su paso por el valle de Ricote lo hacían atractivo y aprovechable para el cultivo. A su vez, las altas montañas que lo encierran suponían un estupendo recurso defensivo para sus habitantes.\n\nA pesar de que numerosas civilizaciones han pisado sus tierras, las primeras noticias que se tienen de Villanueva del Río Segura datan de tiempo después de la conquista cristiana, concretamente de 1468. En la visita que realizó Francisco de León al Reino de Murcia en aquel año (por orden del maestre de la orden de Santiago) aparecen citados los lugares de Ulea, Blanca, Ojós, Abarán y Asuete, que indudablemente se corresponde con Villanueva del Río Segura, dentro de la Encomienda de Ricote.3​ Siendo una población mudéjar como otras del mismo valle, en 1501 se vieron obligados a convertirse al cristianismo.\n\nAunque en el siglo XVI se trataba de una dependencia de Ulea, poco a poco Villanueva del Río Segura se fue asentando como población. Así, durante el siglo XVIII fueron constantes los debates suscitados entre Ulea y Villanueva sobre la primacía de sus respectivas iglesias, el cual sería fallado a favor de Ulea en 1783. Poco después dieron comienzo las gestiones para la construcción de una iglesia parroquial independiente en Villanueva, la de Nuestra Señora de la Asunción, que sería concluida a comienzos del siglo XIX.\n\nhttps://es.wikipedia.org/wiki/Villanueva_del_R%C3%ADo_Segura"@es ;
+        rdfs:label       "Villanueva del Río Segura"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Villanueva_del_Rio_Segura.jpg/800px-Villanueva_del_Rio_Segura.jpg" ;
+        geo:lat          "38.135555"^^xsd:float ;
+        geo:long         "-1.324167"^^xsd:float .
+
+lugares:Comunidad_Valenciana
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Valenciana"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Valencia , lugares:Provincia_de_Alicante , lugares:Provincia_de_Castelló .
+
+lugares:Provincia_de_Girona
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Gerona" ;
+        rdfs:label                      "Provincia de Gerona"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Cataluña .
+
+lugares:Bullas  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Bullas es una localidad y municipio español, perteneciente a la Región de Murcia. Situado en la comarca del Noroeste. Cuenta con 11 627 habitantes (INE 2022),1​ divididos entre el casco urbano del municipio y diversas pedanías, entre las que destaca La Copa, con 648 habitantes.\n\nGeografía\n\nCuenta con un término municipal de 82,2 kilómetros cuadrados. En él se encuentra el nacimiento del río Mula (afluente del río Segura). El casco urbano se sitúa a 651 metros sobre el nivel del mar, siendo la segunda cabeza municipal situada a más altura de la Región de Murcia tras Moratalla. Se encuentra a 53 kilómetros de distancia de la capital (Murcia).\n\nA Bullas se le conoce como la Puerta del Noroeste, por ser la entrada de la comarca del mismo nombre a través de la RM-15. Comarca que se caracteriza por una relativa abundancia de agua, con una pluviometría media anual de 395 litros por metro cuadrado, dándose extremos de 137 litros para el año 1970 y 965.5 para 1989 (INM), por sus cultivos agrarios de tipo extensivo y por sus paisajes forestales (bosques de galería, montes de pino carrasco, presencia de encinas y diversidad de especies de montaña).\n\nAl suroeste del municipio se encuentran la Sierra de la Lavia y el valle del Aceniche.\n\nhttps://es.wikipedia.org/wiki/Bullas"@es ;
+        rdfs:label       "Bullas"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bullasv.jpg/800px-Bullasv.jpg" ;
+        geo:lat          "38.04972"^^xsd:float ;
+        geo:long         "-1.670556"^^xsd:float .
+
+lugares:Provincia_de_Badajoz
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Badajoz" ;
+        rdfs:label                      "Provincia de Badajoz"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Extremadura .
+
+<http://es.dbpedia.org/resource/Abanilla>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Abanilla .
+
+lugares:Provincia_de_Alicante
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Alicante" ;
+        rdfs:label                      "Provincia de Alicante"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Valenciana .
+
+lugares:Provincia_de_Guadalajara
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Guadalajara" ;
+        rdfs:label                      "Provincia de Guadalajara"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_La_Mancha .
+
+lugares:Provincia_de_Salamanca
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Salamanca" ;
+        rdfs:label                      "Provincia de Salamanca"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+lugares:Provincia_de_Valladolid
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Valladolid" ;
+        rdfs:label                      "Provincia de Valladolid"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+lugares:Provincia_de_Teruel
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Teruel" ;
+        rdfs:label                      "Provincia de Teruel"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Aragón .
+
+lugares:Albudeite  a     owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Albudeite es un municipio español perteneciente a la Región de Murcia, situado en la Comarca del río Mula, río que bordea su núcleo urbano. En 2022 contaba con una población de 1.390 habitantes según el INE.\n\nhttps://es.wikipedia.org/wiki/Albudeite"@es ;
+        rdfs:label       "Albudeite"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ayuntamiento_de_Albudeite.jpg/718px-Ayuntamiento_de_Albudeite.jpg" ;
+        geo:lat          "38.02833"^^xsd:float ;
+        geo:long         "-1.385278"^^xsd:float .
+
+lugares:Provincia_de_Castelló
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Castellón" ;
+        rdfs:label                      "Provincia de Castellón"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Valenciana .
+
+<http://es.dbpedia.org/resource/Archena>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Archena .
+
+lugares:Mula  a          <http://www.opengis.net/ont/geosparql#SpatialObject> , lugares:Municipio , owl:NamedIndividual ;
+        rdfs:comment     "Mula es una localidad y municipio español perteneciente a la Región de Murcia, situado en la comarca del Río Mula, de la que es su capital. La población es cabeza del partido judicial del mismo nombre. Posee 17 382 habitantes (INE 2023)1​ repartidos entre el núcleo urbano y diversas pedanías. El municipio es famoso por las Fiestas del Niño Jesús de Mula y la Tamborada, declarada Patrimonio cultural inmaterial de la Humanidad por la UNESCO.\n\nToponimia\n\nA lo largo del tiempo se han expuesto varias teorías sobre el origen del topónimo Mula. Aunque tradicionalmente se ha considerado que provenía del término latino Mola, al aparecer ya como Mula en el tratado de Teodomiro de 713, algunos autores se inclinan por considerar que el asentamiento romano del cerro de la Almagra, emplazamiento precedente del actual, recibió en realidad la misma denominación: Mula.\n\nMula procedería etimológicamente del adjetivo latino mulleus-mullea-mulleum. Término que, atestiguado en Festo, Plinio el Viejo, Catón, etc., significa de color rojo o púrpura. Así, sería posible que el actual cerro de La Almagra se denominara Mons Mulleus, o el poblamiento en él situado Civitas Mullea, y que los moradores de Mula, al trasladarse al emplazamiento actual, siguieron conservando el nombre de su ciudad, por lo que los árabes mantuvieron el nombre del primitivo núcleo.\n\nhttps://es.wikipedia.org/wiki/Mula_(Murcia)"@es ;
+        rdfs:label       "Mula"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/a/a3/Mula_cityscape.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Mulâ ;
+        geo:lat          "38.041866"^^xsd:float ;
+        geo:long         "-1.490687"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Beniel>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Beniel .
+
+<http://es.dbpedia.org/resource/Puerto_Lumbreras>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Puerto_Lumbreras .
+
+lugares:Provincia_de_La_Rioja
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_La_Rioja" ;
+        rdfs:label                      "Provincia de La Rioja"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_la_Rioja .
+
+lugares:Provincia_de_Cáceres
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Cáceres" ;
+        rdfs:label                      "Provincia de Cáceres"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Extremadura .
+
+lugares:Provincia_de_Cuenca
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Cuenca" ;
+        rdfs:label                      "Provincia de Cuenca"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_La_Mancha .
+
+lugares:Comunidad_Autónoma_de_Cantabria
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Cantabria"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Cantabria .
+
+dc:description  a  owl:AnnotationProperty .
+
+lugares:Jumilla  a       owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Jumilla es un municipio y una ciudad española situada en el norte de la Región de Murcia, en la comarca del Altiplano. Contaba con 26 596 habitantes en 2022 (INE).1​ La ciudad es famosa nacional e internacionalmente por sus vinos y sus peras, ambos con Denominación de Origen.\n\nToponimia\n\nEl término Jumilla provendría del latín, transcrito al árabe como Gumalla, nombre con el que la población aparece citada por primera vez en textos árabes del siglo XIII.2​\n\nUna parte del municipio pertenece a la zona del Carche, donde, además de castellano, se habla el valenciano. En dicho idioma, el municipio recibe el nombre de Jumella, pronunciado /d͡ʒuˈme.ʎa/.3​4​5​6​\n\nGeografía\n\nSu altitud media es de 600 m s. n. m. El municipio tiene una gran cantidad de elevaciones: Sierra del Carche (pico de la Madama, 1372 m), Sierra del Buey (1087 m), Sierra de la Cingla (1079 m), Sierra de Los Ladrones (985 m), Santa Ana (967 m), Peñas Blancas (956 m), Sierras de las Cabras y Hermana (953 m), Las Grajas (949 m), Sierra del Molar (941 m), Sierra de Sopalmo (933 m), Peñarrubia (917 m), Sierra Larga (885 m).\n\nEl término municipal de Jumilla, con 972 km², ocupa el segundo lugar en extensión del conjunto de municipios de la Región de Murcia, por detrás de Lorca y por delante de Moratalla, y en décima posición de los términos municipales más grandes de España.\n\nhttps://es.wikipedia.org/wiki/Jumilla"@es ;
+        rdfs:label       "Jumilla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Jumilla._Plaza_de_Arriba.JPG/800px-Jumilla._Plaza_de_Arriba.JPG" ;
+        geo:lat          "38.479168"^^xsd:float ;
+        geo:long         "-1.325"^^xsd:float .
+
+lugares:Municipio_Tiene_nombre_histórico
+        a                   owl:ObjectProperty ;
+        rdfs:domain         geo:SpatialThing ;
+        rdfs:label          "Tiene nombre histórico"@es , "Municipio tiene nombre histórico" ;
+        rdfs:range          lugares:Lugar_Histórico ;
+        rdfs:subPropertyOf  owl:topObjectProperty ;
+        owl:inverseOf       lugares:Se_refiere_a_lugar_actual .
+
+<http://es.dbpedia.org/resource/Alguazas>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Alguazas .
+
+<http://es.dbpedia.org/resource/San_Javier>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:San_Javier .
+
+lugares:Siyasa  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Las_Torres_de_Cotillas
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Las Torres de Cotillas es un municipio español de la Región de Murcia, situado en la comarca de la Vega Media del Segura. Cuenta con 22 183 habitantes (INE 2023),1​ tiene una superficie de 39 kilómetros cuadrados y está situada a una altitud de 82 m s. n. m. Forma parte del Área Metropolitana de Murcia, estando situada a 15 kilómetros de la ciudad de Murcia.\n\nLimita al norte con el municipio de Alguazas, sirviendo de separación entre ambos el río Mula; al oeste con los municipios de Campos del Río y Murcia; al sur con este último, y al este con Molina de Segura, sirviendo de separación entre ambos el río Segura.\n\nGeografía\n\nEl término municipal se caracteriza por poseer un relieve de escasa altitud, advirtiéndose en él pequeñas elevaciones originadas por ligeras ondulaciones de materiales miocénicos que conforman los accidentes orográficos de mayor altitud y leve pendiente hacia la vega media del río Segura, situada al este del territorio.\n\nLas zonas más elevadas se localizan en el sector occidental y central del municipio, y al sureste, en el límite con el municipio de Murcia, con altitudes ligeramente superiores a los 200 metros. Las cotas más bajas se sitúan junto la ribera del río Segura, con una altitud media en torno a 78 metros.\n\nLos materiales que conforman el relieve son principalmente margas miocénicas, mientras la vega del Segura, al ser una llanura de inundación, presenta limos. El principal cauce de agua superficial que atraviesa el municipio es el río Segura. A él vierten el río Mula al norte del término municipal y la Rambla Salada al sur, cauces de agua esporádicos que pueden registrar en ocasiones grandes avalanchas de agua tras las violentas precipitaciones que tienen lugar en este sector.\n\nhttps://es.wikipedia.org/wiki/Las_Torres_de_Cotillas"@es ;
+        rdfs:label       "Las Torres de Cotillas"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Parque_de_la_Constituci%C3%B3n_de_Las_Torres_de_Cotillas.jpg/800px-Parque_de_la_Constituci%C3%B3n_de_Las_Torres_de_Cotillas.jpg" ;
+        geo:lat          "38.02639"^^xsd:float ;
+        geo:long         "-1.243611"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Cartagena>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Cartagena .
+
+lugares:Comunidad_Foral_de_Navarra
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Foral de Navarra"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Navarra .
+
+<http://es.dbpedia.org/resource/Villanueva_del_Río_Segura>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Villanueva_del_Río_Segura .
+
+lugares:Archena  a       owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Archena es un municipio español perteneciente a la Región de Murcia, en la comarca natural del Valle de Ricote. Cuenta con 20 110 habitantes (INE 2023).\n\nArchena está integrado en la comarca de Valle de Ricote y dista de Murcia 25 kilómetros. El término municipal es reducido, 1651 hectáreas, la gran mayoría de regadío. Éste está atravesado por la autovía A-30 y la carretera N-301 en el pK 372. El relieve del municipio está muy influenciado por el río Segura, que recorre el territorio a lo largo de siete kilómetros de norte a sur. A ambos lados del mismo se sitúan las terrazas escalonadas llenas de frutales. Fuera de la ribera del río, el terreno es ligeramente ondulado, con un monte más destacado en su parte norte (Ope, 276 m s. n. m.). La altitud del municipio oscila entre los 276 metros y los 88 metros. El pueblo se alza a 115 metros sobre el nivel del mar. El clima, con una temperatura media de 18 °C, es el propio de la España seca.\n\nhttps://es.wikipedia.org/wiki/Archena"@es ;
+        rdfs:label       "Archena"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Rio_Segura_a_su_paso_por_Archena.jpg/800px-Rio_Segura_a_su_paso_por_Archena.jpg" ;
+        geo:lat          "38.115"^^xsd:float ;
+        geo:long         "-1.299167"^^xsd:float .
+
+lugares:Provincia_de_Palencia
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Palencia" ;
+        rdfs:label                      "Provincia de Palencia"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+lugares:Hisn_Yakka  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Esta_contenida_en_Provincia
+        a                   owl:ObjectProperty ;
+        rdfs:domain         lugares:Municipio ;
+        rdfs:label          "Está contenida en Provincia"@es ;
+        rdfs:range          lugares:Provincia ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+lugares:Puerto_Lumbreras
+        a             owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment  "Puerto Lumbreras es un municipio español de la Región de Murcia. Se encuentra ubicado al suroeste de la región, a orillas de la rambla Nogalte, en la comarca del Alto Guadalentín, y lindando con la provincia de Almería. Cuenta con una población de 17 822 habitantes (INE 2024).1​\nToponimia\n\nPocos datos se tienen sobre el topónimo en época islámica. El historiador Fernando Martínez López apunta que el topónimo Aber-Artebat y ar-Rataba, que el geógrafo Al-Idrisi situaba a menos de una jornada de Lorca y que se traduce con dos acepciones (Fuerte de la Frontera y Pozos de la Cuesta) podría identificarse con Puerto Lumbreras, ya que en esta población se conserva hoy en día un castillo y unos pozos de alumbramientos de agua que forman parte de una infraestructura de origen islámico.2​\n\nEn los documentos castellanos se le denomina Noglat y posteriormente Nogalte. Con el tiempo, la importancia del sistema de captación de aguas bajo la rambla de Nogalte, compuesto por presa subálvea y galerías filtrantes con lumbreras, influyó en la toponimia de la población que pasó de llamarse Puerto Nogalte a Puerto Lumbreras. https://es.wikipedia.org/wiki/Puerto_Lumbreras"@es ;
+        rdfs:label    "Puerto Lumbreras"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia .
+
+<http://es.dbpedia.org/resource/Los_Alcázares>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Los_Alcázares .
+
+lugares:Contiene_Municipios
+        a                   owl:ObjectProperty ;
+        rdfs:domain         lugares:Provincia ;
+        rdfs:label          "Contiene municipios"@es ;
+        rdfs:range          lugares:Municipio ;
+        rdfs:subPropertyOf  owl:topObjectProperty ;
+        owl:inverseOf       lugares:Esta_contenida_en_Provincia .
+
+lugares:Asso  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+<http://es.dbpedia.org/resource/Ojós>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Ojós .
+
+geo:lat  a            owl:DatatypeProperty ;
+        rdfs:comment  "The WGS84 latitude of a SpatialThing (decimal degrees)." ;
+        rdfs:label    "latitude" ;
+        rdfs:range    xsd:float .
+
+lugares:Comunidad_Autónoma_de_la_Rioja
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de La Rioja"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_La_Rioja .
+
+lugares:Ciudad_Autónoma_de_Ceuta
+        a           lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label  "Ciudad Autónoma de Ceuta"@es .
+
+lugares:Cieza  a         lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual ;
+        rdfs:comment     "Cieza es un municipio y ciudad española perteneciente a la Región de Murcia, situado en la comarca de la Vega Alta del Segura de la que es capital, cabeza del partido judicial del mismo nombre. Ejerce como entrada natural de la Región de Murcia por el norte a través de la A-30. Con 35 298 habitantes (INE 2022),4​ se trata del octavo municipio más poblado de la comunidad autónoma.\n\nCieza posee un rico y vivo patrimonio cultural, como el de sus fiestas de Semana Santa y San Bartolomé. También guarda muchos tesoros arqueológicos que abarcan diferentes épocas históricas: pinturas rupestres, poblados íberos, restos romanos y el yacimiento musulmán de Siyasa, que domina el actual emplazamiento de Cieza desde la falda del castillo y cuenta con exposición permanente en el museo de la ciudad.\n\nGeografía\n\nEl término municipal tiene una extensión aproximada de 365 km². Enclavado en la comarca de la Vega Alta del Segura, dista 43 kilómetros de la capital provincial. El término municipal está atravesado por la Autovía de Murcia (A-30), así como por la carretera nacional N-301 (cruza el municipio entre los pK 338 y 358) y las carreteras autonómicas RM-532 (Mula-Cieza) y RM-714 (Jumilla-Caravaca de la Cruz).\n\nhttps://es.wikipedia.org/wiki/Cieza"@es ;
+        rdfs:label       "Cieza"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cieza_vista_general_desde_huerta.jpg/800px-Cieza_vista_general_desde_huerta.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Siyasa ;
+        geo:lat          "38.239124"^^xsd:float ;
+        geo:long         "-1.418973"^^xsd:float .
+
+lugares:San_Pedro_del_Pinatar
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "San Pedro del Pinatar es un municipio situado en la comunidad autónoma de la Región de Murcia, en el sureste de España. Al encontrarse en las riberas del mar Mediterráneo y del Mar Menor dispone de gran atractivo turístico y ecológico. Al norte del municipio se encuentra el parque natural de las Salinas y Arenales de San Pedro del Pinatar.​ Sus municipios colindantes son: San Javier (en la Región de Murcia) y Pilar de la Horadada (en la provincia de Alicante). En un radio de menos de 55 km se pueden encontrar tres ciudades de más de cien mil habitantes: Torrevieja, Cartagena y Murcia.\n\nA pesar de ser un municipio relativamente pequeño su situación estratégica en la costa y sus cualidades medioambientales han originado un crecimiento muy rápido de la población y un aumento de la actividad comercial y económica. Al mismo tiempo se ha producido una gran presión urbanística que ha minimizado el suelo dedicado a las tareas agrícolas.​ De ese modo, la pesca y la explotación de las salinas han dejado de ser sus actividades económicas casi exclusivas. Las fiestas tradicionales se realizan en verano, lo que hace que puedan participar muchas personas que veranean en la zona.\n\nToponimia\n\nEsta localidad recibió su nombre hacia el siglo XVII, anteriormente se conocía como «El Pinatar», ya que se trataba de una extensa masa forestal donde abundaban los pinos y donde se cazaba jabalíes en invierno, hecho recogido en el Libro de la Montería de Alfonso XI. Tras la construcción por los franciscanos de una ermita en el siglo XVII dedicada al culto a San Pedro Apóstol ya que la mayoría de los habitantes eran pescadores, los lugareños comenzaron a denominarlo «San Pedro del Pinatar».\n\nhttps://es.wikipedia.org/wiki/San_Pedro_del_Pinatar"@es ;
+        rdfs:label       "San Pedro del Pinatar"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/e/ec/Belladurmiente.jpg" ;
+        geo:lat          "37.83631"^^xsd:float ;
+        geo:long         "-0.788557"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Águilas>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Águilas .
+
+<http://es.dbpedia.org/resource/Fuente_Álamo>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Fuente_Álamo_de_Murcia .
+
+lugares:Mulâ  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Blanca  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Blanca es un municipio español, situado en el norte de la Región de Murcia, en la Vega Alta del Segura, históricamente vinculado al Valle de Ricote. Cuenta con 6.756 habitantes (INE 2023).3​\n\nGeografía\n\nIntegrado en la comarca de la Vega Alta del Segura, se sitúa a 40 kilómetros de la capital murciana. El municipio está atravesado por la autovía  A-30  y la carretera N-301 entre los pK 362 y 365, así como por la autovía  A-33 , que permite la comunicación con Jumilla y Yecla, la carretera nacional  N-344 , que discurre paralela a la anterior, y la carretera autonómica RM-514, que conecta con Abarán.\n\nEl relieve del municipio es muy accidentado. Presenta un pequeño valle que limita por el sur con los montes del término de Ricote, que forman un desfiladero de paredes verticales, llamado el Alto del Solvente, por donde el río Segura penetra en el término de Ojós. El norte lo limita la sierra del Solán, que alcanza los 554 metros de altitud, con numerosas ramblas y cárcavas. Al noreste se extiende una meseta ondulada cuya altura no sobrepasa los 300 metros, delimitada por la sierra de La Pila, que supera los 1000 metros de altitud. El pueblo se alza a 147 metros sobre el nivel del mar. El cauce principal de agua es el río Segura, que se represa en el embalse de Ojós. En la margen derecha del río desaguan las ramblas de la Tejera, del Puente, del Zapatero y del Pantano, que tienen su origen en la sierra de Ricote; en su margen izquierda desagua la rambla de San Roque.\n\nhttps://es.wikipedia.org/wiki/Blanca_(Murcia)"@es ;
+        rdfs:label       "Blanca"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Der_Fluss_Segura_des_Dorfes_Blanca.JPG/800px-Der_Fluss_Segura_des_Dorfes_Blanca.JPG" ;
+        geo:lat          "38.17917"^^xsd:float ;
+        geo:long         "-1.376111"^^xsd:float .
+
+lugares:Provincia_de_Murcia
+        a                               <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual , lugares:Provincia ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Murcia" ;
+        rdfs:label                      "Provincia de Murcia"@es ;
+        lugares:Contiene_Municipios     lugares:Lorca , lugares:Puerto_Lumbreras , lugares:ALcantarilla , lugares:Cartagena , lugares:Ojós , lugares:Abanilla , lugares:Albudeite , lugares:Santomera , lugares:Abarán , lugares:Caravaca_de_la_Cruz , lugares:Moratalla , lugares:Fortuna , lugares:Cieza , lugares:Yecla , lugares:Águilas , lugares:Archena , lugares:Alhama_de_Murcia , lugares:Lorquí , lugares:Pliego , lugares:Calasparra , lugares:Alguazas , lugares:Totana , <http://www.monumentos.es/lugares/Alcázares,_Los> , lugares:Mazarrón , lugares:RIcote , lugares:Jumilla , lugares:Las_Torres_de_Cotillas , lugares:Torre_Pacheco , lugares:Mula , lugares:Campos_del_Río , lugares:Beniel , lugares:Aledo , lugares:Librilla , lugares:Molina_de_Segura , lugares:La_Unión , lugares:San_Pedro_del_Pinatar , lugares:Villanueva_del_Río_Segura , lugares:San_Javier , lugares:Fuente_Álamo_de_Murcia , lugares:Cehegín , lugares:Blanca , lugares:Ceutí , lugares:Bullas , lugares:Ulea , lugares:Murcia ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_la_Región_de_Murcia ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:KuradeTudmir , lugares:TaifadeMursiya .
+
+lugares:Provincia_de_Granada
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Granada" ;
+        rdfs:label                      "Provincia de Granada"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+<http://es.dbpedia.org/resource/Molina_de_Segura>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Molina_de_Segura .
+
+lugares:Provincia_de_Islas_Baleares
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Islas_Baleares" ;
+        rdfs:label                      "Provincia de Islas Baleares"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_las_Islas_Baleares .
+
+lugares:Provincia_de_Toledo
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Toledo" ;
+        rdfs:label                      "Provincia de Toledo"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_La_Mancha .
+
+lugares:Lorquí  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Lorquí es un municipio español de la Región de Murcia, perteneciente a la comarca de la Vega Media del Segura.\n\nSu extensión es de 15,0 km², tiene una población de 7 141 habitantes (INE 2019)1​ y su altitud media es de 89 m s. n. m. Municipio con importante actividad industrial, en su término se encuentran varios polígonos de gran tamaño como Base 2000, situado en la A-30\n\nGeografía\n\nEl municipio se encuentra integrado en la comarca Vega Media del Segura, situándose a 18 kilómetros por carretera del centro de la capital murciana. El término municipal está atravesado por la Autovía de Murcia  A-30  y la carretera  N-301  entre los pK 375 y 378.\n\nEl relieve del municipio está determinado por la vega del río Segura, cuyo cauce hace de divisoria con el vecino término de Ceutí, bordeando el curso fluvial el núcleo urbano de Lorquí.\n\nLa huerta tradicional se dispone entre ambos márgenes, con sus cultivos y canales de irrigación. La altitud del municipio oscila entre los 150 metros, al noroeste, cerca del límite con Archena, y los 75 metros en la ribera del río.\n\nhttps://es.wikipedia.org/wiki/Lorqu%C3%AD"@es ;
+        rdfs:label       "Lorquí"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ayuntamiento_de_Lorqui.jpg/800px-Ayuntamiento_de_Lorqui.jpg" ;
+        geo:lat          "38.08167"^^xsd:float ;
+        geo:long         "-1.255"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Cieza>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Cieza .
+
+lugares:Provincia_de_Santa_Cruz_de_Tenerife
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Santa_Cruz_de_Tenerife" ;
+        rdfs:label                      "Provincia de Santa Cruz de Tenerife"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_las_Islas_Canarias .
+
+lugares:Provincia_de_Almería
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Almería" ;
+        rdfs:label                      "Provincia de Almería"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+<http://es.dbpedia.org/resource/Fortuna_(Murcia)>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Fortuna .
+
+lugares:Provincia_de_Albacete
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Albacete" ;
+        rdfs:label                      "Provincia de Albacete"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_La_Mancha .
+
+lugares:Totana  a        lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual ;
+        rdfs:comment     "Totana es un municipio y ciudad española perteneciente a la Región de Murcia. Situado en la comarca del Bajo Guadalentín, es cabeza del partido judicial del mismo nombre. Cuenta con una población de 33 149 habitantes (INE 2023).\n\nToponimia\n\nSegún las últimas investigaciones​ el término de Totana podría derivarse de Totanés y este, de Tutanesio,​ célebre monasterio visigodo ubicado en las cercanías de \"Toletum\" capital del reino. Totanés es asimismo un municipio de la provincia de Toledo.\n\nPor otro lado, José García Antón3 establece una clara relación entre la Deitana romana y la Tawtana árabe, por la deformación en la copia del pacto de Tudmir por diversos autores árabes, a través de Baltana.\nHistoria\n\nEn época romana el actual municipio de Totana era conocido como “Mave”, y según el historiador don Aureliano Fernández Guerra, estaba compuesto por los judíos inmigrantes de la provincia de Tarraconense, expulsados de allí debido a su afán por las relaciones incestuosas. Fue la capital de Mavitania, en Murcia, y equivale a la actual Totana, que perdió su nombre para tomar el del célebre Monasterio de Tutanesio. En otras fuentes como la Historia de las instituciones sociales de la España goda, el académico Eduardo Pérez Pujol6​ en su obra póstuma hace una reseña: Mavitania,​ hoy Totana, del monasterio de Tutanesio.\n\nEn 1243, el infante Alfonso de Castilla integró este territorio en la Corona del mismo nombre en virtud del Tratado de Alcaraz.\n\nSu consolidación como población se debe al final de la peligrosidad fronteriza en el Reino de Murcia en los últimos años del siglo XV y principios del XVI, cuando la caída del Reino de Granada y la unión de las coronas de Castilla y Aragón permitió que la población comenzara a ocupar los valles (como es el caso del valle del Guadalentín), en detrimento de los emplazamientos defensivos en las montañas. Así, la población serrana de Aledo comenzó a trasladarse al emplazamiento actual de Totana, sito en el valle.\n\nhttps://es.wikipedia.org/wiki/Totana\nDe esta manera Totana, que había sido un arrabal de Aledo durante la Edad Media, acabó por convertirse en cabeza municipal, no siendo hasta 1793 cuando se produjo la independencia de ambos núcleos en municipios separados.\n\nLa localidad se sumó al Cantón Murciano proclamado el 12 de julio de 1873 en Cartagena, en el marco de la sublevación cantonal, constituyendo su respectiva Junta Revolucionaria. Años después, en 1885, Totana quedó conectada por ferrocarril gracias a la inauguración de la línea Alcantarilla-Lorca, del que sería el ferrocarril Murcia-Granada.\n\nEn 1918, el rey Alfonso XIII concedió a la entonces villa de Totana el título de ciudad, como ocurrió con otros muchos municipios españoles debido al desarrollo de su agricultura, industria y comercio experimentado a finales del siglo XIX y comienzos del XX, así como por su adhesión a la monarquía constitucional."@es ;
+        rdfs:label       "Totana"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Barrio_San_Jos%C3%A9_Totana.jpg/800px-Barrio_San_Jos%C3%A9_Totana.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Tawtana ;
+        geo:lat          "37.771004"^^xsd:float ;
+        geo:long         "-1.500162"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Mula>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Mula .
+
+<http://es.dbpedia.org/resource/Campos_del_Río>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Campos_del_Río .
+
+<http://es.dbpedia.org/resource/Murcia>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Murcia .
+
+lugares:Bigastrum  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Esta_contenida_en_CCAA
+        a                   owl:ObjectProperty ;
+        rdfs:domain         lugares:Provincia ;
+        rdfs:label          "Está contenida en CCAA"@es ;
+        rdfs:range          lugares:Comunidad_Autónoma ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+lugares:Águilas  a       owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Águilas es un municipio de la comunidad autónoma de la Región de Murcia en España. Está situado en la costa del mar Mediterráneo, en el golfo de Mazarrón dentro de la Costa Cálida, en la comarca del Alto Guadalentín, ubicado en el extremo suroeste de la Región de Murcia. Cuenta con 36 862 habitantes (INE 2023)2​\n\nÁguilas es conocida por sus playas y el carnaval, declarado fiesta de Interés Turístico Internacional en 2015.\n\nToponimia\n\nLa primera referencia geográfica al topónimo Acla-Aqila nos la ofrece al-Bakri en el siglo XI, refiriéndose al puerto de Lurqa (Lorca).\n\nEn el siglo XII, Al-Idrisi menciona un castillo defensivo en Akila-Aqila como puerto de Lurqa (Lorca). En el siglo XIII, el primer topónimo castellano del que se tiene constancia se muestra en un privilegio de Alfonso X de 1266, quien, delimitando los territorios de la diócesis de Cartagena, menciona en su límite sur a Penna Aguila, identificada en 1717 por el Cardenal Belluga como el Puerto de las Águilas.\n\nhttps://es.wikipedia.org/wiki/%C3%81guilas"@es ;
+        rdfs:label       "Águilas"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Aguilasmurcia.JPG/800px-Aguilasmurcia.JPG" ;
+        geo:lat          "37.404167"^^xsd:float ;
+        geo:long         "-1.581944"^^xsd:float .
+
+lugares:Yecla  a         owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Yecla es un municipio y una ciudad española perteneciente a la Región de Murcia. Situada en el extremo noreste de esa comunidad autónoma, limita al este con la Comunidad Valenciana —provincia de Alicante—, y al norte con Castilla - La Mancha —provincia de Albacete—. Es, además, la capital de la comarca murciana del Altiplano, que conforma con el municipio de Jumilla. Su población es de 35 234 habitantes (2022).5\nToponimia\n\nEl topónimo Yecla proviene del árabe Yakka, que era el nombre que recibía la fortaleza situada en el actual Cerro del Castillo.6​ Dicho topónimo, no obstante, no es de origen árabe y es muy posible que provenga de la raíz prerromana Iko o Ika.\n\nUna parte del municipio (la pedanía de Raspay) pertenece a la zona del Carche, donde, además del castellano, se habla el valenciano. En este idioma, el municipio recibe el nombre de Iecla, pronunciado /ˈje.kɫa/.\n\nGeografía\n\nEl término municipal de Yecla tiene una extensión de 607,7 km². Se encuentra situado en el extremo norte de la provincia de Murcia, siendo tierra limítrofe con las provincias de Albacete y Alicante. El paisaje dominante lo forman sierras de moderada altitud, con direcciones predominantes SW-NE, que constituyen la prolongación estructural de las zonas externas de las cordilleras béticas (Prebético), con estructuras plegadas de estilo jurásico y vergencia al norte. Las principales elevaciones de Yecla son la Sierra de Salinas (1238 m s. n. m. en la Capilla del Fraile), Monte Arabí (1068 m s. n. m.), Sierra de la Magdalena (1038 m s. n. m.), Sierra de las Pansas (1036 m s. n. m.), Cerro Picario (1035 m s. n. m.) y El Puerto (1030 m s. n. m.).\n\nLa mayoría de montañas, que se levantan sobre el nivel del suelo a modo de islas, se hallan más o menos forestadas y separadas por amplios valles corredores, donde se localizan los cultivos. La vegetación natural principal está constituida por pinares (Pinus halepensis), más o menos densos; el resto lo forman matorrales o espartales de fisionomía arbustiva y ampliamente extendidos.\n\nHistoria\n\nReconstrucción de la planta de Hisn Yakka\nYecla en la década de 1920, donde se puede apreciar que la extensión del casco urbano es casi la misma que en la actualidad\n\nEl primer asentamiento estable del que se tiene constancia en la zona de la actual Yecla es la plaza andalusí de Hisn Yakka, que surgió a finales de siglo XI, en período almorávide, probablemente a fin de ampliar el poder musulmán y promover la islamización en un territorio escasamente controlado y prácticamente despoblado.​ Yakka debió de vivir un periodo de esplendor a principios del siglo XIII, convirtiéndose en el centro de un distrito rural (yūz o a'mal),​ si bien debió pertenecer al iqlim de Madina Bilyana (Villena).\n\nTras la firma del Tratado de Alcaraz (1243) por parte del infante Alfonso de Castilla (que posteriormente sería Alfonso X \"El Sabio\"), la taifa de Murcia, y por ende la población musulmana de Yakka, pasó a ser vasalla de la Corona de Castilla, lo cual endureció bastante las condiciones de vida de la población, descontento que provocó la posterior Revuelta mudéjar de 1264-1266. Gran parte de la población mudéjar tuvo que abandonar la zona al acabar esta revuelta, y es probable que este fuera también el final de Yakka.​ Los repobladores cristianos se establecieron en la cara norte, quizá por cercanía tanto con las tierras fértiles como con la fuente principal, con lo cual el poblado árabe quedó totalmente abandonado.\n\nhttps://es.wikipedia.org/wiki/Yecla"@es ;
+        rdfs:label       "Yecla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Yecla._Vista_desde_el_Santuario_del_Castillo_2.JPG/799px-Yecla._Vista_desde_el_Santuario_del_Castillo_2.JPG" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Hisn_Yakka ;
+        geo:lat          "38.61667"^^xsd:float ;
+        geo:long         "-1.116667"^^xsd:float .
+
+lugares:Molina_de_Segura
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Molina de Segura es una ciudad y municipio español perteneciente a la Región de Murcia, situada en la comarca natural de la Vega Media del Segura, de la que es considerada capital, siendo sede del partido judicial de su nombre. Su término municipal tiene una extensión de 169,5 km².\n\nEs el cuarto municipio en población de la Región de Murcia, con 76 074 habitantes (INE 2023),2​ después de Murcia, Cartagena y Lorca. Del total de su población, aproximadamente un 65 % residen en el núcleo urbano, repartiéndose el resto entre 14 pedanías, sobre todo en Romeral, Torrealta, Ribera de Molina y El Llano. Forma parte del área metropolitana de Murcia.\n\nGeografía\n\nIntegrado en la comarca de la Vega Media del Segura, se sitúa a 10 kilómetros de la capital murciana. La localidad se encuentra en la margen izquierda del río Segura y se alza a 97 metros sobre el nivel del mar.\n\nEl relieve del municipio es extenso y variado. La huerta tradicional se extiende en la vega del río Segura. Fuera del valle aluvial la orografía se hace más elevada tanto por el norte como al este. Hacia el noreste se encuentra la Sierra de la Espada (428 m) y en el extremo norte del término municipal se levantan la Sierra del Águila (840 m) y la Sierra de la Pila, donde se superan los 880 metros de altitud. La altitud oscila entre los 887 metros (pico La Poza Amarga) y los 65 metros (ribera del Segura en el extremo sur del municipio).\n\nEn su término municipal hay quince pedanías, siendo tres las situadas igualmente en la vega del Segura: Ribera de Molina, El Llano de Molina y Torrealta. En la pedanía de Campotéjar y sus adyacentes, localizadas ya fuera de la vega, se han realizado importantes transformaciones de secano a regadío con la dotación de aguas del trasvase Tajo-Segura, siendo actualmente una de las zonas hortofrutícolas productivas más activas de la provincia.\n\nhttps://es.wikipedia.org/wiki/Molina_de_Segura"@es ;
+        rdfs:label       "Molina de Segura"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MolinadeSegura.jpg/800px-MolinadeSegura.jpg" ;
+        geo:lat          "38.054768"^^xsd:float ;
+        geo:long         "-1.213111"^^xsd:float .
+
+lugares:Laqwa  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+dc:date  a      owl:AnnotationProperty .
+
+lugares:Provincia_de_Navarra
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Navarra" ;
+        rdfs:label                      "Provincia de Navarra"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Foral_de_Navarra .
+
+lugares:Provincia_de_Tarragona
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Tarragona" ;
+        rdfs:label                      "Provincia de Tarragona"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Cataluña .
+
+lugares:Plumbaria  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Comunidad_Autónoma_de_las_Islas_Baleares
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de las Islas Baleares"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Islas_Baleares .
+
+lugares:Abarán  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Abarán es un municipio español de la Región de Murcia, ubicado en la Vega Alta del Segura, a orillas del río Segura. Cuenta con 12 992 habitantes (INE, 2022).3​ Dista 40 km de la ciudad de Murcia, y 4 km de la ciudad de Cieza, cabeza del partido judicial del que Abarán forma parte. Su término tiene una extensión de 115 km².\n\nGeografía\n\nIntegrado en la comarca de la Vega Alta del Segura, se sitúa a 41 kilómetros de la capital murciana. El término municipal está atravesado por la autovía A-30 y por la carretera N-301 entre los pK 359 y 361, además de por otras carreteras secundarias, como la MU-512 (permite la comunicación con Cieza) y la RM-514 (permite la conexión con Blanca).\n\nLa geografía del municipio está determinada por el río Segura y las sierras que lo circundan, pertenecientes al Sistema Subbético. Por el norte, la rambla del Moro sirve de límite con Cieza. Por el noroeste y oeste se alza la Sierra del Oro, que supera los 900 m s. n. m. (Oro, 927 m s. n. m.). Por el sur, la rambla de Benito da paso al valle de Ricote. Por el noreste se extiende la sierra de la Pila, donde se sitúa el Parque Regional del mismo nombre, que cuenta con montañas que ascienden por encima de los 1000 m s. n. m. (Caramucel, 1025 m s. n. m.). El núcleo urbano de Abarán se alza a 190 m s. n. m., a orillas del río Segura.\n\nPosee diferentes pedanías y otras entidades menores, estas son: Barranco Molax (dentro de ella se encuentran los parajes de La Asomada, Casa Alcántara, El Rulete, Cabezo Negro y el núcleo de población de San José Artesano), El Boquerón, Casablanca, Corona, Hoya del Campo y Venta de La Aurora."@es ;
+        rdfs:label       "Abarán"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Abaran_vista_general.jpg/800px-Abaran_vista_general.jpg" ;
+        geo:lat          "38.203056"^^xsd:float ;
+        geo:long         "-1.400278"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Yecla>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Yecla .
+
+lugares:Provincia_de_Zamora
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Zamora" ;
+        rdfs:label                      "Provincia de Zamora"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+<http://es.dbpedia.org/resource/Torre-Pacheco>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Torre_Pacheco .
+
+<http://es.dbpedia.org/resource/Bullas>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Bullas .
+
+lugares:Comunidad_Autónoma_de_Extremadura
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Extremadura"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Badajoz , lugares:Provincia_de_Cáceres .
+
+lugares:Provincia_de_Lleida
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Lérida" ;
+        rdfs:label                      "Provincia de Lérida"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Cataluña .
+
+lugares:TaifadeMursiya
+        a       lugares:Lugar_Histórico , owl:NamedIndividual .
+
+geo:Point  a             owl:Class ;
+        rdfs:comment     "A point, typically described using a coordinate system relative to Earth, such as WGS84.\n  " , "\nUniquely identified by lat/long/alt. i.e.\n\nspaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),\n  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).\n\nsameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).\n  " ;
+        rdfs:label       "point" ;
+        rdfs:subClassOf  geo:SpatialThing .
+
+lugares:Ilocrici  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Comunidad_Autónoma_de_Cataluña
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de Cataluña"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Girona , lugares:Provincia_de_Tarragona , lugares:Provincia_de_Barcelona , lugares:Provincia_de_Lleida .
+
+lugares:Provincia_de_Burgos
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Burgos" ;
+        rdfs:label                      "Provincia de Burgos"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+lugares:Pliego  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Pliego es un municipio español de la Región de Murcia, situado en la Comarca del Río Mula, en la zona central de la región. Cuenta con una población de 3901 habitantes (INE 2022).1​\n\nGeografía\n\n    Latitud: 37º 58' 59\" N.\n    Longitud: 001º 30' 00\" O.\n\nEl municipio se localiza en la vertiente norte de la Sierra Espuña, en la vega que genera el río Pliego, afluente del río Mula, curso que a su vez desemboca en el Segura.\n\nLocalidades limítrofes:\n\nTodo el municipio está rodeado por el de Mula.\n\nhttps://es.wikipedia.org/wiki/Pliego"@es ;
+        rdfs:label       "Pliego"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Torre_del_castillo_de_Pliego_%28Murcia%29.jpg/450px-Torre_del_castillo_de_Pliego_%28Murcia%29.jpg" ;
+        geo:lat          "37.99"^^xsd:float ;
+        geo:long         "-1.506111"^^xsd:float .
+
+lugares:Provincia_de_Cantabria
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Cantabria" ;
+        rdfs:label                      "Provincia de Cantabria"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Cantabria .
+
+lugares:Provincia_de_Cádiz
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Cádiz" ;
+        rdfs:label                      "Provincia de Cádiz"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+lugares:Ojós  a       owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment  "Ojós es un municipio español de la Región de Murcia, situado en la histórica comarca del Valle de Ricote y perteneciente al partido judicial de Cieza. Cuenta con una población de 539 habitantes (INE 2023).\n\nToponimia\n\nSu nombre procede del vocablo árabe Oxox.\n\nGeografía\n\nLa población de Ojós vigila la vida del Valle de Ricote tras el denominado Estrecho del Solvente, en uno de los puntos más encajonados del valle, marcado por el río Segura y las antiquísimas huertas situadas en sus márgenes.\n\nhttps://es.wikipedia.org/wiki/Oj%C3%B3s"@es ;
+        rdfs:label    "Ojós"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        geo:lat       "38.147778"^^xsd:float ;
+        geo:long      "-1.342222"^^xsd:float .
+
+lugares:Aledo  a         owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Aledo es un municipio español situado en la Región de Murcia. Cuenta con 1123 habitantes (INE 2023)1​\n\nGeografía\n\nAledo se encuentra al pie de la vertiente meridional de Sierra Espuña, dentro de la comarca murciana del Bajo Guadalentín.\n\nEl emplazamiento del núcleo urbano de Aledo resulta estratégico, situado sobre un macizo escarpado, delimitado en tres de sus cuatro lados por los barrancos de Borrazán al oeste, La Fontanilla al este y la rambla de los Molinos al sur.\n\nhttps://es.wikipedia.org/wiki/Aledo"@es ;
+        rdfs:label       "Aledo"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Vista_de_Aledo.jpg/800px-Vista_de_Aledo.jpg" ;
+        geo:lat          "37.795834"^^xsd:float ;
+        geo:long         "-1.573333"^^xsd:float .
+
+lugares:Provincia_de_Barcelona
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Barcelona" ;
+        rdfs:label                      "Provincia de Barcelona"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Cataluña .
+
+lugares:Moratalla  a     owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Moratalla es un municipio y localidad española de la Región de Murcia, perteneciente a la comarca del Noroeste. La población del término municipal es de 7839 habitantes (INE 2019).1​\n\nDispone del mayor conjunto de arte rupestre mediterráneo de la comunidad autónoma,2​ declarado Patrimonio de la Humanidad.3​ Así mismo, la Tamborada de Moratalla fue declarada Patrimonio cultural inmaterial de la Humanidad por la UNESCO en 2018.\n\nToponimia\n\nSu nombre originario, según el filólogo Gustavo Romera Marcos, proviene de época romana, concretamente del topónimo Murata tálea (la que está amurallada con palos).\n\nhttps://es.wikipedia.org/wiki/Moratalla"@es ;
+        rdfs:label       "Moratalla"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Moratalla_-_52305138081.jpg/800px-Moratalla_-_52305138081.jpg" ;
+        geo:lat          "38.18639"^^xsd:float ;
+        geo:long         "-1.890556"^^xsd:float .
+
+<http://es.dbpedia.org/resource/Ceutí>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Ceutí .
+
+lugares:Ricote  a        owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Ricote es un municipio español de la Región de Murcia, cabeza de la histórica comarca murciana del Valle de Ricote.\n\nCuenta con 1275 habitantes (INE 2022) en su término municipal2​ y una densidad de 15,15 hab/km².\n\nPedanías\n\nCañada Gil, La Armarcha, Ambrós, Lichor, Las Lomas, Cuesta Alta, Rambla de Charrara, Vite, La Bermeja, Patruena, Berrandino, Fuente del Cieno, Ainás, La Alcoba, Collado Gil, La Cuerda y Las Ventanas.\n\nhttps://es.wikipedia.org/wiki/Ricote"@es ;
+        rdfs:label       "Ricote"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ricoteysuhuerta.jpg/800px-Ricoteysuhuerta.jpg" ;
+        geo:lat          "38.15"^^xsd:float ;
+        geo:long         "-1.366667"^^xsd:float .
+
+dc:title  a     owl:AnnotationProperty .
+
+lugares:Provincia_de_Valencia
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Valencia" ;
+        rdfs:label                      "Provincia de Valencia"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Valenciana .
+
+geo:long  a           owl:DatatypeProperty ;
+        rdfs:comment  "The WGS84 longitude of a SpatialThing (decimal degrees)." ;
+        rdfs:label    "longitude" ;
+        rdfs:range    xsd:float .
+
+lugares:Santomera  a     owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Santomera es un municipio español de la Región de Murcia. En su término municipal se encuentran las poblaciones de Santomera, El Siscar y La Matanza, siendo la primera de ellas la que ostenta la capitalidad. Forma parte de la Huerta de Murcia, así mismo está incluido en el área metropolitana de Murcia debido a su proximidad con la capital. El municipio se creó en 1978 al segregarse de Murcia, aunque ya había sido independiente en el siglo XIX.\n\nGeografía\n\nIntegrado en la comarca de Huerta de Murcia, se sitúa a 12 kilómetros del centro de la ciudad de Murcia. El término municipal ocupa una superficie de 44,2 km², la mayoría de los cuales se encuentran dentro de la llamada depresión prelitoral murciana.\n\n\nEl relieve del municipio está caracterizado por la depresión prelitoral murciana y por las primeras elevaciones de la sierra de Orihuela hacia el este, donde se sitúan los puntos más altos del municipio, que superan los 530 metros de altitud. Al oeste, el pico Bermejo (311 metros) hace de límite con el municipio de Murcia. Al norte del pueblo se encuentra el embalse de Santomera, que tiene una finalidad defensiva de posibles riadas. La altitud oscila entre los 533 metros al noreste en la sierra de Orihuela y los 28 metros en la vega del Segura, al sur. El núcleo de Santomera está situado a unos 36 metros sobre el nivel del mar.\n\nSantomera no dispone de pedanías, se constituyó con la unión de tres núcleos de población:\n\n    Santomera, núcleo principal, donde vive la mayoría de la población;\n    El Siscar, situada a 2 kilómetros al este de Santomera.\n    La Matanza, se encuentra a unos 5 kilómetros al norte de Santomera.\n    Orilla del Azarbe, a 2 kilómetros al sur de Santomera.\n\nhttps://es.wikipedia.org/wiki/Santomera"@es ;
+        rdfs:label       "Santomera"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/3/30/Embalse_de_Santomera.jpg" ;
+        geo:lat          "38.061584"^^xsd:float ;
+        geo:long         "-1.049094"^^xsd:float .
+
+lugares:KuradeTudmir  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Tawtana  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Provincia_de_Jaén
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Jaén" ;
+        rdfs:label                      "Provincia de Jaén"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+lugares:Ilorci  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Provincia_de_Zaragoza
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Zaragoza" ;
+        rdfs:label                      "Provincia de Zaragoza"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Aragón .
+
+<http://es.dbpedia.org/resource/Caravaca_de_la_Cruz>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Caravaca_de_la_Cruz .
+
+lugares:Provincia_de_Segovia
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Segovia" ;
+        rdfs:label                      "Provincia de Segovia"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_y_León .
+
+lugares:Contiene_Provincias
+        a                   owl:ObjectProperty ;
+        rdfs:domain         lugares:Comunidad_Autónoma ;
+        rdfs:label          "Contiene Provincias"@es ;
+        rdfs:range          lugares:Provincia ;
+        rdfs:subPropertyOf  owl:topObjectProperty ;
+        owl:inverseOf       lugares:Esta_contenida_en_CCAA .
+
+lugares:Caravaca_de_la_Cruz
+        a                lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> , owl:NamedIndividual ;
+        rdfs:comment     "Caravaca de la Cruz es una ciudad y municipio español perteneciente a la Región de Murcia. Capital y centro administrativo de la comarca del Noroeste y cabeza del partido judicial del mismo nombre. Cuenta con una población de 25 722 habitantes,1​ y su extensión es de 859,51 km². Se encuentra a 625 m sobre el nivel del mar.\n\nEs un lugar de referencia para el culto de la Iglesia católica ya que desde 1998, durante el papado de Juan Pablo II, se la considera una de las ocho ciudades santas de esta confesión religiosa2​ al disponer del privilegio de celebrar Año Jubilar a perpetuidad cada siete años en torno a la Santísima y Vera Cruz. El primero de ellos tuvo lugar en 2003 y contó con la visita del cardenal Ratzinger, posteriormente elegido como papa con la denominación de Benedicto XVI. Por esta circunstancia, y por el propio nombre del municipio, también se la conoce como \"la Ciudad de la Cruz\".\n\nAdemás de ser conocida por la reliquia cristiana y su casco antiguo de origen medieval, lo es también por las fiestas patronales en honor a la misma, celebradas entre los días 1 y 5 de mayo de cada año, declaradas de Interés Turístico Internacional en 2004. Junto a las procesiones y desfiles de Moros y Cristianos, es especialmente relevante el festejo de los Caballos del Vino, declarada en 2020 Patrimonio Cultural Inmaterial de la Humanidad.3​\n\nGeografía\n\nCaravaca de la Cruz es el vigésimo municipio de mayor extensión de España y presenta paisajes muy variados.\n\nLa altitud de la ciudad es de 625 m sobre el nivel del mar. La altitud media hacia el este es de 600 m. Hacia el oeste, se superan rápidamente los 800 m. Más de la mitad del municipio está por encima de los 800  y más de un tercio supera los 1000 m. Los 1612 m de la cumbre de la sierra de Mojantes son el techo del municipio.\n\nhttps://es.wikipedia.org/wiki/Caravaca_de_la_Cruz"@es ;
+        rdfs:label       "Caravaca de la Cruz"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Caravaca_de_la_Cruz._Plaza_de_toros_y_reba%C3%B1o.jpg/757px-Caravaca_de_la_Cruz._Plaza_de_toros_y_reba%C3%B1o.jpg" ;
+        lugares:Municipio_Tiene_nombre_histórico
+                lugares:Asso ;
+        geo:lat          "38.1075"^^xsd:float ;
+        geo:long         "-1.86"^^xsd:float .
+
+lugares:CarthagoSpartaria
+        a       lugares:Lugar_Histórico , owl:NamedIndividual .
+
+<http://es.dbpedia.org/resource/Albudeite>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Albudeite .
+
+<http://es.dbpedia.org/resource/Blanca>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Blanca .
+
+lugares:Provincia_de_Bizkaia
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Vizcaya" ;
+        rdfs:label                      "Provincia de Vizcaya"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_del_País_Vasco .
+
+lugares:Mazarrón  a      <http://www.opengis.net/ont/geosparql#SpatialObject> , lugares:Municipio , owl:NamedIndividual ;
+        rdfs:comment     "Mazarrón es una localidad y municipio español, perteneciente a la Región de Murcia, situado en el sureste de España, en la comarca natural del Bajo Guadalentín. Tiene una extensión de 318,7 km² y una población de 34 462 habitantes (INE 2023)1​ que se distribuyen entre el núcleo de Mazarrón, donde viven aproximadamente 13 000 habitantes, y el Puerto de Mazarrón con 11 000. El resto se reparte entre sus distintas pedanías. El núcleo urbano de Mazarrón se encuentra a 55 metros sobre el nivel del mar y dista 72 km de la capital de la Región, Murcia.\n\nSu economía actual se basa en la agricultura, en la pesca, y principalmente en el turismo, siendo Mazarrón uno de los principales centros turísticos de la Región de Murcia, llegando a alcanzar más de 130 000 habitantes en la época estival gracias a sus playas.\n\nGeografía\n\nEl municipio de Mazarrón está situado en el extremo sur de la Región de Murcia, a unos 72Km de la capital de la misma, cuenta con una superficie de 318,7 km² y limita con los municipios de Cartagena y Fuente Álamo de Murcia al este, con los de Alhama de Murcia y de Totana al norte, con el de Lorca al oeste y con el Mar Mediterráneo al sur.\n\nhttps://es.wikipedia.org/wiki/Mazarr%C3%B3n"@es ;
+        rdfs:label       "Mazarrón"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/7/7e/Puerto_de_Mazarr%C3%B3n1.jpg" ;
+        owl:sameAs       <https://www.wikidata.org/entity/Q913277> ;
+        geo:lat          "37.59838"^^xsd:float ;
+        geo:long         "-1.313902"^^xsd:float .
+
+lugares:Mursiya  a  lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Provincia_de_Málaga
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Málaga" ;
+        rdfs:label                      "Provincia de Málaga"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Andalucía .
+
+<http://es.dbpedia.org/resource/Lorquí>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:Lorquí .
+
+lugares:Provincia  a     owl:Class ;
+        rdfs:label       "Provincia"@es ;
+        rdfs:subClassOf  geo:SpatialThing .
+
+lugares:Comunidad_Autónoma_del_País_Vasco
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma del País Vasco"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Álava , lugares:Provincia_de_Gipuzkoa , lugares:Provincia_de_Bizkaia .
+
+lugares:Provincia_de_La_Coruña
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_La_Coruña" ;
+        rdfs:label                      "Provincia de La Coruña"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Galicia .
+
+lugares:Posee_entidades_menores
+        a                   owl:ObjectProperty , owl:SymmetricProperty ;
+        rdfs:domain         lugares:Comunidad_Autónoma , lugares:Provincia ;
+        rdfs:label          "Posee entidades menores"@es ;
+        rdfs:range          lugares:Provincia ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+lugares:Comunidad_Autónoma_de_la_Región_de_Murcia
+        a                            lugares:Comunidad_Autónoma , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:label                   "Comunidad Autónoma de la Región de Murcia"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Murcia .
+
+geo:lat_long  rdfs:comment  "A comma-separated representation of a latitude, longitude coordinate." ;
+        rdfs:label    "lat/long" .
+
+lugares:Calasparra  a    owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Calasparra es un municipio español de la Región de Murcia, situado en la comarca del Noroeste. Cuenta con 10 163 habitantes (INE 2022).1​ Calasparra es conocida por su arroz (en especial la variedad bomba), que cuenta con denominación de origen.\n\nGeografía\n\nEl término municipal de Calasparra se encuentra enclavado en la comarca murciana del Noroeste, en su zona más baja en lo que altitud se refiere, por lo que hacia él acuden los cursos de agua de la zona montañosa de la comarca en su camino hacia el río Segura, que atraviesa el municipio.\n\nEstá delimitado por la Sierra del Puerto al norte (que hace de límite con el término albaceteño de Hellín), el río Alhárabe y el río Segura por el oeste (que hacen de límite con Moratalla), Cehegín por el sur (desde donde llega el río Argos, que atraviesa el municipio y bordea el núcleo de Calasparra), y Cieza por el este, además de una pequeña porción del término de Mula con el que limita en el sureste.\n\nLa población de Calasparra se encuentra aproximadamente en el centro de su término, en las estribaciones de la Sierra del Molino, contando a sus pies con la amplia vega arrocera que le da fama, atravesada por el Segura. En sus proximidades se produce la unión de este último con el Argos. En la parte oriental del municipio, transcurre el último tramo del río Quípar, donde destaca el Embalse de Alfonso XIII que represa sus aguas.\n\nEl río Segura hace entrada en el término calasparreño en su parte más noroccidental, justo cuando el río Mundo se une al Segura, cambiando bruscamente su dirección NO-SE por NE-SO -tramo que sirve de límite con el amplio término de Moratalla-.\n\nPoco antes de su unión con el río Alhárabe, en las proximidades del Santuario de la Esperanza, el Segura cambia de nuevo su dirección, tomando una más O-E, pasando a discurrir en su integridad dentro del municipio, formando su conocida vega situada en la parte central del mismo. En la zona más oriental del término, limitando con Cieza, se localiza el paraje denominado Cañón de Almadenes, donde el Segura atraviesa la mencionada Sierra del Molino, lugar donde se le une el Quípar.\n\nhttps://es.wikipedia.org/wiki/Calasparra"@es ;
+        rdfs:label       "Calasparra"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Calasparra_y_sierra_del_Molino.jpg/800px-Calasparra_y_sierra_del_Molino.jpg" ;
+        geo:lat          "38.23111"^^xsd:float ;
+        geo:long         "-1.697778"^^xsd:float .
+
+lugares:TaifadeMurcia
+        a       lugares:Lugar_Histórico , owl:NamedIndividual .
+
+lugares:Fuente_Álamo_de_Murcia
+        a                owl:NamedIndividual , lugares:Municipio , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:comment     "Fuente Álamo de Murcia es una localidad y municipio español perteneciente a la Región de Murcia, situado en la comarca natural del Campo de Cartagena. El municipio tiene una población de 17 225 habitantes.1​ Cuenta con una arraigada tradición agrícola y ganadera, actividad industrial centrada en el Parque Tecnológico de Fuente Álamo y de La Candelaria, además de presencia de turismo residencial.\n\nGeografía\n\nIntegrado en la comarca del Campo de Cartagena, se sitúa a 38 kilómetros de la capital murciana. El término municipal está atravesado por varias carreteras: Autovía de Murcia A-30 en el pK 170; autovía RM-2, que une Alhama de Murcia con el Campo de Cartagena; carretera autonómica RM-602, que discurre paralela a la anterior; carretera autonómica RM-601, que permite la conexión directa con el aeropuerto de Murcia.\n\nhttps://es.wikipedia.org/wiki/Fuente_%C3%81lamo_de_Murcia"@es ;
+        rdfs:label       "Fuente Álamo"@es ;
+        lugares:Esta_contenida_en_Provincia
+                lugares:Provincia_de_Murcia ;
+        lugares:Imagen1  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Iglesia_de_San_Agust%C3%ADn_de_Fuente_%C3%81lamo_de_Murcia.jpg/800px-Iglesia_de_San_Agust%C3%ADn_de_Fuente_%C3%81lamo_de_Murcia.jpg" ;
+        geo:lat          "37.73933"^^xsd:float ;
+        geo:long         "-1.188169"^^xsd:float .
+
+lugares:Provincia_de_Ciudad_Real
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Provincia_de_Ciudad_Real" ;
+        rdfs:label                      "Provincia de Ciudad Real"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_de_Castilla_La_Mancha .
+
+<http://es.dbpedia.org/resource/La_Unión>
+        a           owl:NamedIndividual ;
+        owl:sameAs  lugares:La_Unión .
+
+lugares:Provincia_de_Asturias
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Asturias" ;
+        rdfs:label                      "Provincia de Asturias"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_del_Principado_de_Asturias .
+
+lugares:Provincia_de_Álava
+        a                               lugares:Provincia , owl:NamedIndividual , <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+        rdfs:isDefinedBy                "http://es.dbpedia.org/resource/Álava" ;
+        rdfs:label                      "Provincia de Álava"@es ;
+        lugares:Esta_contenida_en_CCAA  lugares:Comunidad_Autónoma_del_País_Vasco .
+
+lugares:Comunidad_Autónoma_de_Andalucía
+        a                            <http://www.opengis.net/ont/geosparql#SpatialObject> , lugares:Comunidad_Autónoma , owl:NamedIndividual ;
+        rdfs:label                   "Comunidad Autónoma de Andalucía"@es ;
+        lugares:Contiene_Provincias  lugares:Provincia_de_Córdoba , lugares:Provincia_de_Málaga , lugares:Provincia_de_Huelva , lugares:Provincia_de_Sevilla , lugares:Provincia_de_Granada , lugares:Provincia_de_Cádiz , lugares:Provincia_de_Jaén , lugares:Provincia_de_Almería .
